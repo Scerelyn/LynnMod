@@ -1,10 +1,26 @@
 # LynnMod
-A mod for Library of Ruina
+## Description
+A mod for Library of Ruina featuring 3 new receptions. Impuritas Civitas level, only partially play tested/balanced.
+All three receptions require 1 Impuritas book to invite.
 
-# Directory Layout
-## Art 
+
+## Reception description
+### Lynn and Fel
+A two on two fight with one character who inflicts/buffs from paralysis, and another who gains/losses power on clash wins/loses
+### Akao
+A one on one fight with a character who gains strength based on amount of status ailments on target
+### Enbana
+A five on five fight with characters who buff in various ways by self inflicting burn
+
+
+## Directory Layout
+### Art 
 Raw art assets (pngs, xcf project files)
-## LynnModProject
+### LynnModProject
 C# source code for assembly portion of the mod
-## ModFiles
+### ModFiles
 Combined mod files including compiled dll, formatted art assets, and xml data. Use this folder as the mod to use
+
+
+## Installing
+Download and drop the LynnMod folder into (steam install directory)\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Mods, run Library of Ruina with mods, and check the Lynn Mod selection on start up.
