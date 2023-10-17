@@ -1,0 +1,12 @@
+<BattleEffectTextRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <effectTextList>
+    <BattleEffectText ID="Enbana_YellowFlame">
+      <Name>Yellow Spark</Name>
+      <Desc>At the end of the turn, take {0} stagger damage, then reduce the stack by a third</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="Enbana_BlueFlame">
+      <Name>Blue Flame</Name>
+      <Desc>At the end of the turn, take 3*{0} damage, then remove the entire stack</Desc>
+    </BattleEffectText>
+  </effectTextList>
+</BattleEffectTextRoot>

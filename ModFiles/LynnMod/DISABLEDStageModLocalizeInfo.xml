@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizationFile Enable="true">
+  	<DefaultLanguage>kr</DefaultLanguage>
+		<BattleCardAbilityInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\BattleCardAbilities</Path>
+		</BattleCardAbilityInfo>
+		<BattleCardNameInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\BattlesCards</Path>
+		</BattleCardNameInfo>
+		<BattleDialogInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\BattleDialogues</Path>
+		</BattleDialogInfo>
+		<BattleEffectTextInfo Exist="true">
+			<Path>\Assemblies\Localize\{0}\EffectTexts</Path>
+		</BattleEffectTextInfo>
+		<BookDescInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\Books</Path>
+		</BookDescInfo>
+		<CharacterNameInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\CharactersName</Path>
+		</CharacterNameInfo>
+		<DropbookNameInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\Dropbooks</Path>
+		</DropbookNameInfo>
+		<PassiveDescInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\PassiveDesc</Path>
+		</PassiveDescInfo>
+		<StageNameInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\StageName</Path>
+		</StageNameInfo>
+		<TextDataInfo Exist="false">
+			<Path>\Assemblies\Localize\{0}\etc</Path>
+		</TextDataInfo>
+	</LocalizationFile>
+</LocalizationInfo>

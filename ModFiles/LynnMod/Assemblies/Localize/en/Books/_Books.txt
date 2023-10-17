@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+    <BookDesc BookID="1">
+      <BookName>Alectro's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000001">
+      <BookName>Alectro's Page</BookName>
+      <TextList>
+        <Desc>The workshop deals in a wide variety of goods. We grasp one characteristic and create various objects. I made a weapon, characterized by the release of electricity. What is electricity. Striking lightning is electricity. Well, there's a saying that energy companies used this for energy before they came out. How would you move a Warp train with this weak force?</Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

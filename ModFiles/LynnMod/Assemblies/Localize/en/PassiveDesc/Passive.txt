@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="1">
+    <Name>Reactor Workshop Weaponry</Name>
+    <Desc>When inflicting Paralysis using Combat Pages, apply +1 additional stack at a 75% chance. On roll dice, the minimum value and damage boost by target's Paralysis stack / 3</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="2">
+    <Name>Masterful Paralysis</Name>
+    <Desc>When using a Combat Page with an effect involving 'Paralysis', all dice on the page gain +1 Power, and inflict 1 Paralysis on self next Scene by 50% chance.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="3">
+    <Name>Nerve Paralysis</Name>
+    <Desc>When hit, inflict 1 Paralysis to attacker at a 25% chance
+Reduce incoming damage and Stagger damage by 1-2 if the character has 'Paralysis'(Including damage from non-attacks)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="4">
+    <Name>Reactor Processing</Name>
+    <Desc>When targets hit by melee attacks from this character take Stagger damage equal to the Paralysis stack at the start of the next Scene. All Combat Pages that they use gain an additional effect: ‘[On Use] Inflict 1 Paralysis on self next Scene’</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

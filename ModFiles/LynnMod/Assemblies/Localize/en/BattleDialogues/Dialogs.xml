@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Character ID="1">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Let's take it easy~</BattleDialog>
+      <BattleDialog ID="1">It's a chance to test the new product!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">This will help you make a new product.</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">The retreats are all blocked...</BattleDialog>
+      <BattleDialog ID="1">Damn it. I have something left to deliver...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">.</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">This is a bit thrilling, right? I feel that quite often, too.</BattleDialog>
+      <BattleDialog ID="1">Sharp, stinging, and... Anyway, it's cool, right?</BattleDialog>
+    </Type>
+  </Character>
+</BattleDialogRoot>

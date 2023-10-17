@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cardDescList>
+    <BattleCardDesc ID="1">
+      <LocalizedName>Overload</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2">
+      <LocalizedName>Wait There</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="3">
+      <LocalizedName>Reactance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="4">
+      <LocalizedName>Series Resistance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="5">
+      <LocalizedName>Static</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="6">
+      <LocalizedName>Plasma Charge</LocalizedName>
+    </BattleCardDesc>
+  </cardDescList>
+</BattleCardDescRoot>
