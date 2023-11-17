@@ -494,7 +494,7 @@
   <Card ID="21">
     <Name>Hot Hit</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Hot Hit.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
@@ -518,7 +518,7 @@
   <Card ID="22">
     <Name>Stunning Fire</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Stunning Fire.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
@@ -543,7 +543,7 @@
   <Card ID="23">
     <Name>Form Sting</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Form Sting.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
@@ -567,7 +567,7 @@
   <Card ID="24">
     <Name>Extinguish</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Extinguish.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
@@ -592,7 +592,7 @@
   <Card ID="25">
     <Name>Stop n' Drop</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Stop n Drop.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script />
@@ -617,7 +617,7 @@
   <Card ID="26">
     <Name>Azur Pulsar</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Azur Pulsar.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>philip_powerup2bytargetburn8</Script>
@@ -642,7 +642,7 @@
   <Card ID="27">
     <Name>Spark Swirl</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Spark Swirl.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
@@ -667,7 +667,7 @@
   <Card ID="28">
     <Name>From Ashes</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>From Ashes.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>drawCard2</Script>
