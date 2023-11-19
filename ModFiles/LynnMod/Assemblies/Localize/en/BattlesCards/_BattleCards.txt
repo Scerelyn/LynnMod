@@ -2,22 +2,88 @@
 <BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <cardDescList>
     <BattleCardDesc ID="1">
-      <LocalizedName>Overload</LocalizedName>
+      <LocalizedName>Zap Shift</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="2">
-      <LocalizedName>Wait There</LocalizedName>
+      <LocalizedName>Dual Shock</LocalizedName>
     </BattleCardDesc>
-    <BattleCardDesc ID="3">
-      <LocalizedName>Reactance</LocalizedName>
+	<BattleCardDesc ID="3">
+      <LocalizedName>Ohmic Wait</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="4">
-      <LocalizedName>Series Resistance</LocalizedName>
+      <LocalizedName>Rolling Slash</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="5">
-      <LocalizedName>Static</LocalizedName>
+      <LocalizedName>Charged Parry</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="6">
-      <LocalizedName>Plasma Charge</LocalizedName>
+      <LocalizedName>Volt Exchange</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="7">
+      <LocalizedName>Point Blank Shots</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="8">
+      <LocalizedName>Ferric Form</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="9">
+      <LocalizedName>Straight Shot</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="10">
+      <LocalizedName>Unrelenting Fire</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="11">
+      <LocalizedName>Back Up</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="12">
+      <LocalizedName>Crimson Cuts</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="13">
+      <LocalizedName>Vermillion Strike</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="14">
+      <LocalizedName>Citrias Slam</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="15">
+      <LocalizedName>Viridian Line</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="16">
+      <LocalizedName>Cerulean Fissure</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="17">
+      <LocalizedName>Violet Swirl</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="18">
+      <LocalizedName>Mauve Movements</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="19">
+      <LocalizedName>Sepia Recollection</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="20">
+      <LocalizedName>Seven Colored Apocalypse</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="21">
+      <LocalizedName>Hot Hit</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="22">
+      <LocalizedName>Stunning Fire</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="23">
+      <LocalizedName>Form Sting</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="24">
+      <LocalizedName>Extinguish</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="25">
+      <LocalizedName>Stop n' Drop</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="26">
+      <LocalizedName>Azur Pulsar</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="27">
+      <LocalizedName>Spark Swirl</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="28">
+      <LocalizedName>From Ashes</LocalizedName>
     </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>

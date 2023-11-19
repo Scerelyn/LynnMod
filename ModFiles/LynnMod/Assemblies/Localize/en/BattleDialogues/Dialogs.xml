@@ -2,22 +2,101 @@
 <BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Character ID="1">
     <Type ID="START_BATTLE">
-      <BattleDialog ID="0">Let's take it easy~</BattleDialog>
-      <BattleDialog ID="1">It's a chance to test the new product!</BattleDialog>
+      <BattleDialog ID="0">So here is where we ended up</BattleDialog>
     </Type>
     <Type ID="BATTLE_VICTORY">
-      <BattleDialog ID="0">This will help you make a new product.</BattleDialog>
+      <BattleDialog ID="0">Done here</BattleDialog>
+      <BattleDialog ID="1">Now for the next step</BattleDialog>
     </Type>
     <Type ID="DEATH">
-      <BattleDialog ID="0">The retreats are all blocked...</BattleDialog>
-      <BattleDialog ID="1">Damn it. I have something left to deliver...</BattleDialog>
+      <BattleDialog ID="0">Damn...</BattleDialog>
+      <BattleDialog ID="1">There goes this body</BattleDialog>
     </Type>
     <Type ID="COLLEAGUE_DEATH">
-      <BattleDialog ID="0">.</BattleDialog>
+      <BattleDialog ID="0">Now I have to drag you back</BattleDialog>
+      <BattleDialog ID="1">This better not be one of your bluffs again</BattleDialog>
     </Type>
     <Type ID="KILLS_OPPONENT">
-      <BattleDialog ID="0">This is a bit thrilling, right? I feel that quite often, too.</BattleDialog>
-      <BattleDialog ID="1">Sharp, stinging, and... Anyway, it's cool, right?</BattleDialog>
+      <BattleDialog ID="0">Another one down</BattleDialog>
+      <BattleDialog ID="1">Cleared</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="2">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Hmm..</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">Tch..</BattleDialog>
+      <BattleDialog ID="1">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Now I need to find you again</BattleDialog>
+      <BattleDialog ID="1">Again with you...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">Down</BattleDialog>
+      <BattleDialog ID="1">Clear</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="3">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">What colors do you contain?</BattleDialog>
+      <BattleDialog ID="1">Something other than red this time</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">Only red...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">... When were you here?</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">Red...</BattleDialog>
+      <BattleDialog ID="1">Red again...</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="4">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">The dance of flame begins</BattleDialog>
+      <BattleDialog ID="1">Will your heart burn hotter than mine?</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">Only flames remain</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">I will not burn out this easy</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Keep up with the heat next time</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">To ashes...</BattleDialog>
+      <BattleDialog ID="1">Burned away</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="5">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">For the princess!</BattleDialog>
+      <BattleDialog ID="1">Protect her highness!</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">The princess is safe for now</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">Keep her safe...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">We need to protect what we can</BattleDialog>
+	  <BattleDialog ID="1">Hold on!</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">One less to worry about</BattleDialog>
+      <BattleDialog ID="1">Another one burned away</BattleDialog>
     </Type>
   </Character>
 </BattleDialogRoot>

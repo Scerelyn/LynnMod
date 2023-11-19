@@ -1,20 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <PassiveDesc ID="1">
-    <Name>Reactor Workshop Weaponry</Name>
-    <Desc>When inflicting Paralysis using Combat Pages, apply +1 additional stack at a 75% chance. On roll dice, the minimum value and damage boost by target's Paralysis stack / 3</Desc>
+    <Name>E-Field Manipulation</Name>
+    <Desc>When inflicted with Paralysis, gain +3 to max roll instead</Desc>
   </PassiveDesc>
   <PassiveDesc ID="2">
-    <Name>Masterful Paralysis</Name>
-    <Desc>When using a Combat Page with an effect involving 'Paralysis', all dice on the page gain +1 Power, and inflict 1 Paralysis on self next Scene by 50% chance.</Desc>
+    <Name>Nimble Fox</Name>
+    <Desc>Evade Dice gain +2 power, Block Dice lose -2 power</Desc>
   </PassiveDesc>
   <PassiveDesc ID="3">
-    <Name>Nerve Paralysis</Name>
-    <Desc>When hit, inflict 1 Paralysis to attacker at a 25% chance
-Reduce incoming damage and Stagger damage by 1-2 if the character has 'Paralysis'(Including damage from non-attacks)</Desc>
+    <Name>Chariot</Name>
+    <Desc>On Clash Win, gain 1 Strength (max 5). On Clash Lose, gain 1 Feeble (max 5)</Desc>
   </PassiveDesc>
   <PassiveDesc ID="4">
-    <Name>Reactor Processing</Name>
-    <Desc>When targets hit by melee attacks from this character take Stagger damage equal to the Paralysis stack at the start of the next Scene. All Combat Pages that they use gain an additional effect: ‘[On Use] Inflict 1 Paralysis on self next Scene’</Desc>
+    <Name>Seven Colored Melody</Name>
+    <Desc>Dice gain +1 power per unique negative ailment on target</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="5">
+    <Name>E-Field Enhancement</Name>
+    <Desc>When inflicted with Paralysis, gain +1 Dice power per 3 stacks</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="6">
+    <Name>Igniting Emotion</Name>
+    <Desc>Gain +1 Dice power and +3 Burn per emotion level</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="7">
+    <Name>Burning Invigoration</Name>
+    <Desc>On Clash Win, heal by 20% of Burn on self</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="8">
+    <Name>Sword of Flame</Name>
+    <Desc>Attacks deal 60% damage and give Burn equivalent to damage</Desc>
   </PassiveDesc>
 </PassiveDescRoot>

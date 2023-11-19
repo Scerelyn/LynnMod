@@ -2,12 +2,52 @@
 <BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <bookDescList>
     <BookDesc BookID="1">
-      <BookName>Alectro's Page</BookName>
+      <BookName>Lynn's Page</BookName>
     </BookDesc>
     <BookDesc BookID="10000001">
-      <BookName>Alectro's Page</BookName>
+      <BookName>Lynn's Page</BookName>
       <TextList>
-        <Desc>The workshop deals in a wide variety of goods. We grasp one characteristic and create various objects. I made a weapon, characterized by the release of electricity. What is electricity. Striking lightning is electricity. Well, there's a saying that energy companies used this for energy before they came out. How would you move a Warp train with this weak force?</Desc>
+        <Desc></Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+  <BookDesc BookID="2">
+      <BookName>Fel's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000002">
+      <BookName>Fel's Page</BookName>
+      <TextList>
+        <Desc></Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+  <BookDesc BookID="3">
+      <BookName>Akao's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000003">
+      <BookName>Akao's Page</BookName>
+      <TextList>
+        <Desc></Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+  <BookDesc BookID="4">
+      <BookName>Enbana's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000004">
+      <BookName>Enbana's Page</BookName>
+      <TextList>
+        <Desc></Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+  <BookDesc BookID="5">
+      <BookName>Enbana's Guard's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000005">
+      <BookName>Enbana's Guard's Page</BookName>
+      <TextList>
+        <Desc></Desc>
       </TextList>
     </BookDesc>
   </bookDescList>

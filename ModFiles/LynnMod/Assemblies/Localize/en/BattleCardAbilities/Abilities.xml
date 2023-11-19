@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BattleCardAbilityDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <BattleCardAbility ID="paralysis3self">
-    <Desc>[Combat Start] Gain Paralysis 3 this Scene</Desc>
+  <BattleCardAbility ID="Enbana_FlameProc">
+    <Desc>[On Combat Start] Winning clashes deals bonus damage based on Burn stacks on target</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="paralysis1e1d1">
-    <Desc>[On Use] Restore 1 Light and Draw 1 Pages. Gain 1 Paralysis next Scene</Desc>
+  <BattleCardAbility ID="Lynn_ParaGain1">
+    <Desc>[On Combat Start] Gain 3 Paralysis</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="paralysis2thisround">
-    <Desc>[Combat Start] Inflict 2 Paralysis this Scene</Desc>
+  <BattleCardAbility ID="Lynn_ParaGain2">
+    <Desc>[On Combat Start] Gain 1 Paralysis</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="paralysis1pl">
-    <Desc>[On Clash Lose] Inflict 1 Paralysis next Scene</Desc>
+  <BattleCardAbility ID="Lynn_ShockDraw">
+    <Desc>[On Use] Draw 1 page. If inflicted with paralysis, draw another and gain 1 Light</Desc>
   </BattleCardAbility>
-  <BattleCardAbility ID="paralysistogether">
-    <Desc>[On Hit] Apply and Gain 1 Paralysis next Scene, up to three times</Desc>
-  </BattleCardAbility>
-  <BattleCardAbility ID="powerbyparalysis">
-    <Desc>Power increases by the amount of Paralysis on target</Desc>
-  </BattleCardAbility>
-</BattleCardAbilityDescRoot>
