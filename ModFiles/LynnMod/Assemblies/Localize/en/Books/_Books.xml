@@ -10,8 +10,7 @@
         <Desc></Desc>
       </TextList>
     </BookDesc>
-  </bookDescList>
-  <BookDesc BookID="2">
+	<BookDesc BookID="2">
       <BookName>Fel's Page</BookName>
     </BookDesc>
     <BookDesc BookID="10000002">
@@ -20,8 +19,7 @@
         <Desc></Desc>
       </TextList>
     </BookDesc>
-  </bookDescList>
-  <BookDesc BookID="3">
+	<BookDesc BookID="3">
       <BookName>Akao's Page</BookName>
     </BookDesc>
     <BookDesc BookID="10000003">
@@ -30,8 +28,7 @@
         <Desc></Desc>
       </TextList>
     </BookDesc>
-  </bookDescList>
-  <BookDesc BookID="4">
+	<BookDesc BookID="4">
       <BookName>Enbana's Page</BookName>
     </BookDesc>
     <BookDesc BookID="10000004">
@@ -40,8 +37,7 @@
         <Desc></Desc>
       </TextList>
     </BookDesc>
-  </bookDescList>
-  <BookDesc BookID="5">
+	<BookDesc BookID="5">
       <BookName>Enbana's Guard's Page</BookName>
     </BookDesc>
     <BookDesc BookID="10000005">
