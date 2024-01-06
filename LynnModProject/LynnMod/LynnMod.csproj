@@ -89,6 +89,8 @@
     <Compile Include="PassiveAbility_Lynn_EField2.cs" />
     <Compile Include="PassiveAbility_Lynn_EField.cs" />
     <Compile Include="PassiveAbility_Lynn_NimbleFox.cs" />
+    <Compile Include="PassiveAbility_Saeka_KillAbsorb.cs" />
+    <Compile Include="PassiveAbility_Saeka_PowerMaintain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
