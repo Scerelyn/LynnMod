@@ -93,11 +93,18 @@
     </Type>
     <Type ID="COLLEAGUE_DEATH">
       <BattleDialog ID="0">We need to protect what we can</BattleDialog>
-	  <BattleDialog ID="1">Hold on!</BattleDialog>
+      <BattleDialog ID="1">Hold on!</BattleDialog>
     </Type>
     <Type ID="KILLS_OPPONENT">
       <BattleDialog ID="0">One less to worry about</BattleDialog>
       <BattleDialog ID="1">Another one burned away</BattleDialog>
     </Type>
+  </Character>
+  <Character ID="6">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
   </Character>
 </BattleDialogRoot>

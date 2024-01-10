@@ -51,4 +51,5 @@
     <Card>23</Card>
     <Card>27</Card>
   </Deck>
+  <Deck ID="6" />
 </DeckXmlRoot>

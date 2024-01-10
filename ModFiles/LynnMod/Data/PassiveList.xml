@@ -104,4 +104,30 @@
     <Name>Sword of Flame</Name>
     <Desc>Attacks deal 60% damage and give Burn equivalent to damage</Desc>
   </Passive>
+  <Passive ID="9">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Saeka_KillAbsorb</Script>
+    <Name>Absorbtion</Name>
+    <Desc>On kill, increase the maximum value of passive 'Built Strength' by 1</Desc>
+  </Passive>
+  <Passive ID="10">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Saeka_PowerMaintain</Script>
+    <Name>Built Strength</Name>
+    <Desc>On turn end, keep stacks of Strength, Endurance, and Haste on the next turn (max 5).</Desc>
+  </Passive>
 </PassiveXmlRoot>
