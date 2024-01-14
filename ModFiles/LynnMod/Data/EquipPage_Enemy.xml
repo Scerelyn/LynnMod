@@ -215,8 +215,8 @@
       <SBResist>Normal</SBResist>
       <PBResist>Endure</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>4</MaxPlayPoint>
-      <StartPlayPoint>4</StartPlayPoint>
+      <MaxPlayPoint>5</MaxPlayPoint>
+      <StartPlayPoint>5</StartPlayPoint>
       <AddedStartDraw>0</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
       <Passive>9</Passive>

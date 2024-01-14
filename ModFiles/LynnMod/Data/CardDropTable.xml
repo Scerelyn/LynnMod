@@ -43,4 +43,11 @@
     <Card>23</Card>
     <Card>25</Card>
   </DropTable>
+  <DropTable ID="6">
+    <Card>29</Card>
+    <Card>30</Card>
+    <Card>31</Card>
+    <Card>32</Card>
+    <Card>33</Card>
+  </DropTable>
 </CardDropTableXmlRoot>

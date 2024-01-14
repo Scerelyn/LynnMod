@@ -32,6 +32,7 @@
       </TextList>
     </BookDesc>
     <BookDesc BookID="10000006">
+      <BookName />
       <TextList>
         <Desc />
       </TextList>

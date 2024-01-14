@@ -41,4 +41,12 @@
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000005</DropItem>
   </BookUse>
+  <BookUse ID="6">
+    <Name>Book of Saeka</Name>
+    <TextId />
+    <BookIcon />
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000006</DropItem>
+  </BookUse>
 </BookUseXmlRoot>

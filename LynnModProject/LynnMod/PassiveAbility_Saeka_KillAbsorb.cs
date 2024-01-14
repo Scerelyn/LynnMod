@@ -14,7 +14,7 @@ namespace Ruina
         public override void OnKill(BattleUnitModel target)
         {
             var passive = owner.passiveDetail.PassiveList.First(p => p is PassiveAbility_Saeka_PowerMaintain) as PassiveAbility_Saeka_PowerMaintain;
-            passive.buffMax += 1;
+            passive.BuffMax += 1;
         }
     }
 }

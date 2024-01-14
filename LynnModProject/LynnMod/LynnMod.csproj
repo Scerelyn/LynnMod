@@ -76,10 +76,12 @@
     <Compile Include="DiceCardAbility_Lynn_ParaShock3.cs" />
     <Compile Include="DiceCardAbility_Lynn_ParaShock2.cs" />
     <Compile Include="DiceCardAbility_Lynn_HardShock1.cs" />
+    <Compile Include="DiceCardAbility_Saeka_BuffGain.cs" />
     <Compile Include="DiceCardSelfAbility_Enbana_FlameProc.cs" />
     <Compile Include="DiceCardSelfAbility_Lynn_ParaGain2.cs" />
     <Compile Include="DiceCardSelfAbility_Lynn_ParaGain1.cs" />
     <Compile Include="DiceCardSelfAbility_Lynn_ShockDraw.cs" />
+    <Compile Include="DiceCardSelfAbility_Saeka_Empowered.cs" />
     <Compile Include="Initializer.cs" />
     <Compile Include="PassiveAbility_Akao_AilmentBoost.cs" />
     <Compile Include="PassiveAbility_Enbana_FlameEmotion.cs" />
