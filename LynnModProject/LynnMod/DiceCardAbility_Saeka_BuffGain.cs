@@ -8,9 +8,10 @@ namespace Ruina
 {
     public class DiceCardAbility_Saeka_BuffGain : DiceCardAbilityBase
     {
-        public static string Desc = "[On Clash Win] Randomly gain 1 Strength, Haste or Endurance next scene.";
+        public static string Desc = "[On Hit] Randomly gain 1 Strength, Haste or Endurance next scene.";
         private static Random rng = new Random();
-        public override void OnWinParrying()
+
+        public override void OnSucceedAttack()
         {
             switch (rng.Next(0,2))
             {

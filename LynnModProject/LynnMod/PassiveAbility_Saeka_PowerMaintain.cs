@@ -9,8 +9,9 @@ namespace Ruina
     public class PassiveAbility_Saeka_PowerMaintain : PassiveAbilityBase
     {
         public static string Name = "Built Strength";
-        public static string Desc = "On turn end, keep stacks of Strength, Endurance, and Haste on the next turn (max 5).";
+        public static string Desc = "On scene end, keep stacks of Strength, Endurance, and Haste on the next turn (max 5).";
         public int BuffMax { get; set; } = 5;
+
         public override void OnRoundEnd()
         {
             Dictionary<KeywordBuf, BattleUnitBuf> buffs = owner.bufListDetail.GetActivatedBufList()
