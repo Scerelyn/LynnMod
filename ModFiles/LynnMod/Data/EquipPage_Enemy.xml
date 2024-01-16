@@ -130,7 +130,7 @@
       <Break>288</Break>
       <SpeedMin>4</SpeedMin>
       <Speed>8</Speed>
-      <SpeedDiceNum>0</SpeedDiceNum>
+      <SpeedDiceNum>2</SpeedDiceNum>
       <SResist>Endure</SResist>
       <PResist>Normal</PResist>
       <HResist>Normal</HResist>
@@ -203,7 +203,7 @@
     <BookIcon />
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>550</HP>
+      <HP>750</HP>
       <DeadLine>0</DeadLine>
       <Break>367</Break>
       <SpeedMin>4</SpeedMin>
@@ -215,9 +215,9 @@
       <SBResist>Normal</SBResist>
       <PBResist>Endure</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>5</MaxPlayPoint>
-      <StartPlayPoint>5</StartPlayPoint>
-      <AddedStartDraw>0</AddedStartDraw>
+      <MaxPlayPoint>6</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>4</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
       <Passive>9</Passive>
       <Passive>10</Passive>
@@ -231,7 +231,7 @@
     <RangeType>Hybrid</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
-    <SpeedDiceNum>1</SpeedDiceNum>
+    <SpeedDiceNum>2</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
 </BookXmlRoot>

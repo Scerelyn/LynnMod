@@ -12,3 +12,7 @@
   <BattleCardAbility ID="Lynn_ShockDraw">
     <Desc>[On Use] Draw 1 page. If inflicted with paralysis, draw another and gain 1 Light</Desc>
   </BattleCardAbility>
+  <BattleCardAbility ID="Saeka_Empowered">
+    <Desc>Dice on this page lose 6 power. Each unique buff on user gives 1 additional dice power.</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

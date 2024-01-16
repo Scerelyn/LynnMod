@@ -85,5 +85,23 @@
 	<BattleCardDesc ID="28">
       <LocalizedName>From Ashes</LocalizedName>
     </BattleCardDesc>
+	<BattleCardDesc ID="29">
+      <LocalizedName>A</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="30">
+      <LocalizedName>B</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="31">
+      <LocalizedName>C</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="32">
+      <LocalizedName>D</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="33">
+      <LocalizedName>E</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="34">
+      <LocalizedName>F</LocalizedName>
+    </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>

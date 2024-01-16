@@ -694,7 +694,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
-    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
     <ScriptDesc />
     <BehaviourList>
@@ -800,6 +800,32 @@
       <Behaviour Min="14" Dice="28" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
       <Behaviour Min="7" Dice="11" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
     </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="34">
+    <Name>F</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>drawAndEnergy</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Thumb_J" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+	  <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+	  <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+	</BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
     <SkinChange />
