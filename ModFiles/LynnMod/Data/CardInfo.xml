@@ -823,9 +823,9 @@
     <BehaviourList>
       <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Thumb_J" Script="Saeka_BuffGain" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-	  <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-	  <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-	</BehaviourList>
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+    </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
     <SkinChange />

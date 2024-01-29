@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Book of Saeka</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="12" pivot_y="-358" />
+      <Head head_x="2" head_y="350" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-16" pivot_y="-356" />
+      <Head head_x="53" head_y="313" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-356" />
+      <Head head_x="110" head_y="327" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="16" pivot_y="-359" />
+      <Head head_x="78" head_y="313" rotation="0" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="205" pivot_y="-354" />
+      <Head head_x="-133" head_y="265" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="193" pivot_y="-358" />
+      <Head head_x="-53" head_y="306" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="179" pivot_y="-361" />
+      <Head head_x="-198" head_y="281" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="129" pivot_y="-356" />
+      <Head head_x="-177" head_y="281" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="243.8" pivot_y="-257.4001" />
+      <Head head_x="2" head_y="327" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="12" pivot_y="-359" />
+      <Head head_x="0" head_y="329" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>
