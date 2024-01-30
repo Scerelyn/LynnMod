@@ -690,9 +690,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="29">
-    <Name>A</Name>
+    <Name>Affixed Blade</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Affixed Blade.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
@@ -714,9 +714,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="30">
-    <Name>B</Name>
+    <Name>Stock Swipe</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Stock Swipe.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
@@ -738,9 +738,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="31">
-    <Name>C</Name>
+    <Name>Hold Stance</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Hold Stance.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard2</Script>
@@ -763,9 +763,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="32">
-    <Name>D</Name>
+    <Name>Blunted Assault</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Blunted Assault.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script />
@@ -789,9 +789,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="33">
-    <Name>E</Name>
+    <Name>Empowered Slug</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Empowered Slug.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Far" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>Saeka_Empowered</Script>
@@ -813,9 +813,9 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="34">
-    <Name>F</Name>
+    <Name>Rifled Swing</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Rifled Swing.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawAndEnergy</Script>
