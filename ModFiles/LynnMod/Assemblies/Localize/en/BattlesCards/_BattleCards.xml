@@ -86,22 +86,22 @@
       <LocalizedName>From Ashes</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="29">
-      <LocalizedName>A</LocalizedName>
+      <LocalizedName>Affixed Blade</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="30">
-      <LocalizedName>B</LocalizedName>
+      <LocalizedName>Stock Swipe</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="31">
-      <LocalizedName>C</LocalizedName>
+      <LocalizedName>Hold Stance</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="32">
-      <LocalizedName>D</LocalizedName>
+      <LocalizedName>Blunted Assault</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="33">
-      <LocalizedName>E</LocalizedName>
+      <LocalizedName>Empowered Slug</LocalizedName>
     </BattleCardDesc>
 	<BattleCardDesc ID="34">
-      <LocalizedName>F</LocalizedName>
+      <LocalizedName>Rifled Swing</LocalizedName>
     </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>
