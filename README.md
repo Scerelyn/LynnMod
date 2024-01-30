@@ -1,7 +1,7 @@
 # LynnMod
 ## Description
-A mod for Library of Ruina featuring 3 new receptions. Impuritas Civitas level, only partially play tested/balanced.
-All three receptions require 1 Impuritas book to invite.
+A mod for Library of Ruina featuring 4 new receptions. Impuritas Civitas level, only partially play tested/balanced.
+All four receptions require 1 Impuritas book to invite.
 
 
 ## Reception description
@@ -11,7 +11,8 @@ A two on two fight with one character who inflicts/buffs from paralysis, and ano
 A one on one fight with a character who gains strength based on amount of status ailments on target
 ### Enbana
 A five on five fight with characters who buff in various ways by self inflicting burn
-
+### Saeka
+A one on five fight with a character who gains and keeps buffs, getting stronger with every hit, stagger, and kill
 
 ## Directory Layout
 ### Art 
