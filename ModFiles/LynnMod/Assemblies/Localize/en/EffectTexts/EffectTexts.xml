@@ -5,9 +5,29 @@
       <Name>Yellow Spark</Name>
       <Desc>At the end of the Scene, take {0} stagger damage, then reduce the stack by a third</Desc>
     </BattleEffectText>
-	<BattleEffectText ID="Enbana_BlueFlame">
+    <BattleEffectText ID="Enbana_BlueFlame">
       <Name>Blue Flame</Name>
       <Desc>At the end of the Scene, take 3*{0} damage, then remove the entire stack</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Lynn_Keyword">
+      <Name>Lynn's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Lynn's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Fel_Keyword">
+      <Name>Fel's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Fel's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Akao_Keyword">
+      <Name>Akao's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Akao's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Enbana_Keyword">
+      <Name>Enbana's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Enbana's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Saeka_Keyword">
+      <Name>Saeka's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Saeka's Key page.</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

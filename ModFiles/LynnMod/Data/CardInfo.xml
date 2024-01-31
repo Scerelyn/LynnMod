@@ -102,6 +102,8 @@
     <TextId>-1</TextId>
     <Artwork>Ohmic Wait.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Lynn_Keyword</Keyword>
     <Spec Range="Near" Cost="8" Affection="One" EmotionLimit="0" />
     <Script>Lynn_ParaGain1</Script>
     <ScriptDesc />
@@ -151,6 +153,8 @@
     <TextId>-1</TextId>
     <Artwork>Point Blank.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Fel_Keyword</Keyword>
     <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -444,6 +448,8 @@
     <TextId>-1</TextId>
     <Artwork>Sepia Recollection.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Akao_Keyword</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -469,6 +475,8 @@
     <TextId>-1</TextId>
     <Artwork>Seven Colored Apocalypse.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Akao_Keyword</Keyword>
     <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>powerUp2fullCard</Script>
     <ScriptDesc />
@@ -569,6 +577,8 @@
     <TextId>-1</TextId>
     <Artwork>Extinguish.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Enbana_Keyword</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -669,6 +679,8 @@
     <TextId>-1</TextId>
     <Artwork>From Ashes.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Enbana_Keyword</Keyword>
     <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>drawCard2</Script>
     <ScriptDesc />
@@ -793,6 +805,8 @@
     <TextId>-1</TextId>
     <Artwork>Empowered Slug.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Saeka_Keyword</Keyword>
     <Spec Range="Far" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>Saeka_Empowered</Script>
     <ScriptDesc />
