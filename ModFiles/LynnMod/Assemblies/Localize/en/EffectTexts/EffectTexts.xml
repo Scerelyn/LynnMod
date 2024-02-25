@@ -9,6 +9,10 @@
       <Name>Blue Flame</Name>
       <Desc>At the end of the Scene, take 3*{0} damage, then remove the entire stack</Desc>
     </BattleEffectText>
+	<BattleEffectText ID="Saeka_Absorb">
+      <Name>Absorbsion</Name>
+      <Desc>Passive Effect "Built Strength" maximum value is increased by {0}</Desc>
+    </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">
       <Name>Lynn's Exclusive Page</Name>
       <Desc>Can only be set in the deck of Lynn's Key page.</Desc>

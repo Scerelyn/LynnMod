@@ -34,10 +34,10 @@
   </PassiveDesc>
   <PassiveDesc ID="9">
     <Name>Absorbtion</Name>
-    <Desc>When a target is staggered increase the maximum value of passive 'Built Strength' by 1. On kill, increase the maximum by 2 instead, and gain any buffs the target has next scene.</Desc>
+    <Desc>When a target is staggered, increase the maximum value of passive 'Built Strength' by 1. On kill, increase the maximum by 2 instead, and gain any buffs the target has next scene.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="10">
     <Name>Built Strength</Name>
-    <Desc>On scene end, keep stacks of Strength, Endurance, and Haste on the next turn (max 5)</Desc>
+    <Desc>On scene end, keep stacks of all positive buffs on the next turn (max 5).</Desc>
   </PassiveDesc>
 </PassiveDescRoot>

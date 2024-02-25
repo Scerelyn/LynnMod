@@ -9,24 +9,25 @@ namespace Ruina
     public class PassiveAbility_Saeka_PowerMaintain : PassiveAbilityBase
     {
         public static string Name = "Built Strength";
-        public static string Desc = "On scene end, keep stacks of Strength, Endurance, and Haste on the next turn (max 5).";
-        public int BuffMax { get; set; } = 5;
+        public static string Desc = "On scene end, keep stacks of all positive buffs on the next turn (max 5).";
 
         public override void OnRoundEnd()
         {
-            Dictionary<KeywordBuf, BattleUnitBuf> buffs = owner.bufListDetail.GetActivatedBufList()
-                .Where(b => b.bufType == KeywordBuf.Strength || b.bufType == KeywordBuf.Endurance || b.bufType == KeywordBuf.Quickness)
-                .ToDictionary(b => b.bufType, b => b);
-
-            foreach(KeywordBuf key in buffs.Keys)
+            int buffMax = 5 + (owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b is BattleUnitBuf_Saeka_Absorb)?.stack ?? 0);
+            List<BattleUnitBuf> currentBuffs = owner.bufListDetail.GetActivatedBufList().Where(b => b.positiveType == BufPositiveType.Positive).ToList();
+            foreach (BattleUnitBuf buff in currentBuffs)
             {
-                switch (key)
+                BattleUnitBuf existingBuff = owner.bufListDetail.GetReadyBufList().FirstOrDefault(b => b.GetType() == buff.GetType() || b.bufType == buff.bufType);
+                if (existingBuff != null)
                 {
-                    case KeywordBuf.Strength:
-                    case KeywordBuf.Endurance:
-                    case KeywordBuf.Quickness:
-                        owner.bufListDetail.AddKeywordBufByEtc(key, Math.Min(buffs[key].stack, BuffMax));
-                        break;
+                    existingBuff.stack = Math.Min(existingBuff.stack + buff.stack, buffMax);
+                }
+                else
+                {
+                    int buffStack = Math.Min(buff.stack, buffMax);
+                    BattleUnitBuf copied = Activator.CreateInstance(buff.GetType()) as BattleUnitBuf;
+                    copied.stack = buffStack;
+                    owner.bufListDetail.AddReadyBuf(copied);
                 }
             }
         }

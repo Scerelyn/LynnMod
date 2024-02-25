@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="BattleUnitBuf_Enbana_BlueFlame.cs" />
     <Compile Include="BattleUnitBuf_Enbana_YellowFlame.cs" />
+    <Compile Include="BattleUnitBuf_Saeka_Absorb.cs" />
     <Compile Include="DiceCardAbility_Akao_PainTransfer.cs" />
     <Compile Include="DiceCardAbility_Enbana_BFlame1.cs" />
     <Compile Include="DiceCardAbility_Enbana_FlameHeal.cs" />
