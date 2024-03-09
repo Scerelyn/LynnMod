@@ -10,7 +10,7 @@
       <Desc>At the end of the Scene, take 3*{0} damage, then remove the entire stack</Desc>
     </BattleEffectText>
 	<BattleEffectText ID="Saeka_Absorb">
-      <Name>Absorbsion</Name>
+      <Name>Absorbtion</Name>
       <Desc>Passive Effect "Built Strength" maximum value is increased by {0}</Desc>
     </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">

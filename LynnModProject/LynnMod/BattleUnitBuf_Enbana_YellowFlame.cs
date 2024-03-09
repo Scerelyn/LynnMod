@@ -10,13 +10,13 @@ namespace Ruina
     public class BattleUnitBuf_Enbana_YellowFlame : BattleUnitBuf
     {
         public static string Name = "Yellow Spark";
-        public static string Desc = "At the end of the turn, take {0} stagger damage, then reduce the stack by a third";
+        public static string Desc = "At the end of the scene, take {0} stagger damage, then reduce the stack by a third";
 
         protected override string keywordId => "Enbana_YellowFlame";
         protected override string keywordIconId => "YellowSpark";
         public override BufPositiveType positiveType => BufPositiveType.Negative;
 
-        public override void OnRoundStartAfter()
+        public override void OnRoundEnd()
         {
             base.OnRoundStartAfter();
             _owner.TakeBreakDamage(stack);

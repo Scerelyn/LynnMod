@@ -101,9 +101,9 @@
       <MaxPlayPoint>4</MaxPlayPoint>
       <StartPlayPoint>4</StartPlayPoint>
       <AddedStartDraw>0</AddedStartDraw>
-      <Passive>4</Passive>
       <Passive Pid="@origin">10008</Passive>
-      <Passive Pid="@origin">230010</Passive>
+      <Passive>4</Passive>
+	  <Passive Pid="@origin">230010</Passive>
       <Passive Pid="@origin">230020</Passive>
       <Passive Pid="@origin">240027</Passive>
     </EquipEffect>
