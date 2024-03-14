@@ -19,7 +19,7 @@
     <Damaged>
       <Direction>Front</Direction>
       <Pivot pivot_x="0" pivot_y="-400" />
-      <Head head_x="52.89999" head_y="407" rotation="-13" head_enable="True" />
+      <Head head_x="53" head_y="407" rotation="-13" head_enable="True" />
     </Damaged>
     <Slash>
       <Direction>Front</Direction>

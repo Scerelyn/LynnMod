@@ -28,6 +28,8 @@ namespace Ruina
             Harmony harmony = new Harmony("LOR.LynnMod");
             MethodInfo method = typeof(Initializer).GetMethod("BookModel_SetXmlInfo");
             harmony.Patch(typeof(BookModel).GetMethod("SetXmlInfo", AccessTools.all), null, new HarmonyMethod(method));
+            method = typeof(Initializer).GetMethod("BookModel_GetThumbSprite");
+            harmony.Patch(typeof(BookModel).GetMethod("GetThumbSprite", AccessTools.all), new HarmonyMethod(method));
             language = GlobalGameManager.Instance.CurrentOption.language;
             path = Path.GetDirectoryName(Uri.UnescapeDataString(new UriBuilder(Assembly.GetExecutingAssembly().CodeBase).Path));
             GetArtWorks(new DirectoryInfo(path + "/ArtWork"));
@@ -44,6 +46,36 @@ namespace Ruina
                 DiceCardXmlInfo cardItem = ItemXmlDataList.instance.GetCardItem(new LorId(PackageId, item));
                 ____onlyCards.Add(cardItem);
             }
+        }
+
+        public static bool BookModel_GetThumbSprite(BookModel __instance, ref Sprite __result)
+        {
+            if (__instance.BookId.packageId == PackageId)
+            {
+                int id = __instance.BookId.id;
+                switch (id)
+                {
+                    case 10000001:
+                        __result = ArtWorks["Lynn"];
+                        return false;
+                    case 10000002:
+                        __result = ArtWorks["Fel"];
+                        return false;
+                    case 10000003:
+                        __result = ArtWorks["Akao"];
+                        return false;
+                    case 10000004:
+                        __result = ArtWorks["Enbana"];
+                        return false;
+                    case 10000005:
+                        __result = ArtWorks["EnbanaGuard"];
+                        return false;
+                    case 10000006:
+                        __result = ArtWorks["Saeka"];
+                        return false;
+                }
+            }
+            return true;
         }
 
         public static void GetArtWorks(DirectoryInfo dir)
