@@ -103,22 +103,39 @@
   <Character ID="6">
     <Type ID="START_BATTLE">
       <BattleDialog ID="0">More for me today</BattleDialog>
-	  <BattleDialog ID="1">Time for a meal</BattleDialog>
+      <BattleDialog ID="1">Time for a meal</BattleDialog>
     </Type>
     <Type ID="BATTLE_VICTORY">
       <BattleDialog ID="0">And my power grows</BattleDialog>
-	  <BattleDialog ID="1">Now for another meal...</BattleDialog>
+      <BattleDialog ID="1">Now for another meal...</BattleDialog>
     </Type>
     <Type ID="DEATH">
-	  <BattleDialog ID="0">Damnit</BattleDialog>
-	  <BattleDialog ID="1">...Shit</BattleDialog>
+      <BattleDialog ID="0">Damnit</BattleDialog>
+      <BattleDialog ID="1">...Shit</BattleDialog>
     </Type>
     <Type ID="COLLEAGUE_DEATH">
-	  <BattleDialog ID="0">And you are?</BattleDialog>
+      <BattleDialog ID="0">And you are?</BattleDialog>
     </Type>
     <Type ID="KILLS_OPPONENT">
-	  <BattleDialog ID="0">Mine now!</BattleDialog>
-	  <BattleDialog ID="1">I'll be taking that!</BattleDialog>
+      <BattleDialog ID="0">Mine now!</BattleDialog>
+      <BattleDialog ID="1">I'll be taking that!</BattleDialog>
+    </Type>
+  </Character>
+  <Character ID="7">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">Enter</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">V</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">D</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Oh noes</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">e</BattleDialog>
     </Type>
   </Character>
 </BattleDialogRoot>

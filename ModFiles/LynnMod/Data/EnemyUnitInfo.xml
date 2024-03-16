@@ -41,8 +41,8 @@
     <Name>Akao</Name>
     <FaceType>Skin</FaceType>
     <NameID>-1</NameID>
-    <MinHeight>170</MinHeight>
-    <MaxHeight>170</MaxHeight>
+    <MinHeight>166</MinHeight>
+    <MaxHeight>166</MaxHeight>
     <Unknown>false</Unknown>
     <Gender>F</Gender>
     <Retreat>false</Retreat>
@@ -106,6 +106,24 @@
     <DropBonus>0</DropBonus>
     <DropTable Level="0">
       <DropItem Prob="1">6</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="7">
+    <Name>Gredo</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>183</MinHeight>
+    <MaxHeight>183</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>7</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">7</DropItem>
     </DropTable>
     <AiScript />
   </Enemy>

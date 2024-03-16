@@ -130,4 +130,30 @@
     <Name>Built Strength</Name>
     <Desc>On scene end, keep stacks of all positive buffs on the next turn (max 5).</Desc>
   </Passive>
+  <Passive ID="11">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>Gredo_BlackStar</Script>
+    <Name>Black Star</Name>
+    <Desc>(Untransferable) Receive no damage from attacks. Gain 25 Resistance at the start of the Act. Gain 5 Resisistance every Scene (Max 40)</Desc>
+  </Passive>
+  <Passive ID="12">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Gredo_StarBurst</Script>
+    <Name>Star Burst</Name>
+    <Desc>When staggered, gain 5 Penumbric</Desc>
+  </Passive>
 </PassiveXmlRoot>

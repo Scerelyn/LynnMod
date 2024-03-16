@@ -49,4 +49,12 @@
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000006</DropItem>
   </BookUse>
+  <BookUse ID="7">
+    <Name>Book of Gredo</Name>
+    <TextId />
+    <BookIcon />
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000007</DropItem>
+  </BookUse>
 </BookUseXmlRoot>

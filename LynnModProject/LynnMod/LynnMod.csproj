@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="BattleUnitBuf_Enbana_BlueFlame.cs" />
     <Compile Include="BattleUnitBuf_Enbana_YellowFlame.cs" />
+    <Compile Include="BattleUnitBuf_Gredo_GravLens.cs" />
+    <Compile Include="BattleUnitBuf_Gredo_Penumbric.cs" />
     <Compile Include="BattleUnitBuf_Saeka_Absorb.cs" />
     <Compile Include="DiceCardAbility_Akao_PainTransfer.cs" />
     <Compile Include="DiceCardAbility_Enbana_BFlame1.cs" />
@@ -72,6 +74,9 @@
     <Compile Include="DiceCardAbility_Enbana_FlamePurge.cs" />
     <Compile Include="DiceCardAbility_Enbana_YFlame2.cs" />
     <Compile Include="DiceCardAbility_Enbana_YFlame1.cs" />
+    <Compile Include="DiceCardAbility_Gredo_GravDouble.cs" />
+    <Compile Include="DiceCardAbility_Gredo_GravLens2.cs" />
+    <Compile Include="DiceCardAbility_Gredo_GravLens1.cs" />
     <Compile Include="DiceCardAbility_Lynn_HardShock2.cs" />
     <Compile Include="DiceCardAbility_Lynn_ParaShock1.cs" />
     <Compile Include="DiceCardAbility_Lynn_ParaShock3.cs" />
@@ -89,6 +94,8 @@
     <Compile Include="PassiveAbility_Enbana_HealingFlame.cs" />
     <Compile Include="PassiveAbility_Enbana_FlameSword.cs" />
     <Compile Include="PassiveAbility_Fel_Chariot.cs" />
+    <Compile Include="PassiveAbility_Gredo_BlackStar.cs" />
+    <Compile Include="PassiveAbility_Gredo_StarBurst.cs" />
     <Compile Include="PassiveAbility_Lynn_EField2.cs" />
     <Compile Include="PassiveAbility_Lynn_EField.cs" />
     <Compile Include="PassiveAbility_Lynn_NimbleFox.cs" />

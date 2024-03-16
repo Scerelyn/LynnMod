@@ -103,7 +103,7 @@
       <AddedStartDraw>0</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
       <Passive>4</Passive>
-	  <Passive Pid="@origin">230010</Passive>
+      <Passive Pid="@origin">230010</Passive>
       <Passive Pid="@origin">230020</Passive>
       <Passive Pid="@origin">240027</Passive>
     </EquipEffect>
@@ -232,6 +232,44 @@
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
     <SpeedDiceNum>2</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+  <Book ID="7">
+    <Name>Gredo's Page</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>200</HP>
+      <DeadLine>0</DeadLine>
+      <Break>150</Break>
+      <SpeedMin>3</SpeedMin>
+      <Speed>7</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Immune</SResist>
+      <PResist>Immune</PResist>
+      <HResist>Immune</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive>11</Passive>
+      <Passive>12</Passive>
+      <Passive Pid="@origin">230018</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>SevenUnit</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
 </BookXmlRoot>

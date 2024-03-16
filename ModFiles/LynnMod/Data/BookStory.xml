@@ -37,5 +37,13 @@
         <Desc />
       </TextList>
     </BookDesc>
+    <BookDesc BookID="10000007">
+      <TextList>
+        <Desc />
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="10000007">
+      <TextList />
+    </BookDesc>
   </bookDescList>
 </BookDescRoot>
