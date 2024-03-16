@@ -135,7 +135,7 @@
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>9</Cost>

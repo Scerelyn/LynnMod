@@ -9,9 +9,17 @@
       <Name>Blue Flame</Name>
       <Desc>At the end of the Scene, take 3*{0} damage, then remove the entire stack</Desc>
     </BattleEffectText>
-	<BattleEffectText ID="Saeka_Absorb">
+    <BattleEffectText ID="Saeka_Absorb">
       <Name>Absorbtion</Name>
       <Desc>Passive Effect "Built Strength" maximum value is increased by {0}</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Gredo_Penumbric">
+      <Name>Penumbric</Name>
+      <Desc>When recieving damage, reflect {0} damage back to the attacker</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Gredo_Umbral">
+      <Name>Penumbric</Name>
+      <Desc>If this character takes no action, receive {0} damage</Desc>
     </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">
       <Name>Lynn's Exclusive Page</Name>

@@ -7,7 +7,7 @@
     <BattleCardDesc ID="2">
       <LocalizedName>Dual Shock</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="3">
+    <BattleCardDesc ID="3">
       <LocalizedName>Ohmic Wait</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="4">
@@ -19,89 +19,104 @@
     <BattleCardDesc ID="6">
       <LocalizedName>Volt Exchange</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="7">
+    <BattleCardDesc ID="7">
       <LocalizedName>Point Blank Shots</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="8">
+    <BattleCardDesc ID="8">
       <LocalizedName>Ferric Form</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="9">
+    <BattleCardDesc ID="9">
       <LocalizedName>Straight Shot</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="10">
+    <BattleCardDesc ID="10">
       <LocalizedName>Unrelenting Fire</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="11">
+    <BattleCardDesc ID="11">
       <LocalizedName>Back Up</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="12">
+    <BattleCardDesc ID="12">
       <LocalizedName>Crimson Cuts</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="13">
+    <BattleCardDesc ID="13">
       <LocalizedName>Vermillion Strike</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="14">
+    <BattleCardDesc ID="14">
       <LocalizedName>Citrias Slam</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="15">
+    <BattleCardDesc ID="15">
       <LocalizedName>Viridian Line</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="16">
+    <BattleCardDesc ID="16">
       <LocalizedName>Cerulean Fissure</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="17">
+    <BattleCardDesc ID="17">
       <LocalizedName>Violet Swirl</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="18">
+    <BattleCardDesc ID="18">
       <LocalizedName>Mauve Movements</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="19">
+    <BattleCardDesc ID="19">
       <LocalizedName>Sepia Recollection</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="20">
+    <BattleCardDesc ID="20">
       <LocalizedName>Seven Colored Apocalypse</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="21">
+    <BattleCardDesc ID="21">
       <LocalizedName>Hot Hit</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="22">
+    <BattleCardDesc ID="22">
       <LocalizedName>Stunning Fire</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="23">
+    <BattleCardDesc ID="23">
       <LocalizedName>Form Sting</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="24">
+    <BattleCardDesc ID="24">
       <LocalizedName>Extinguish</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="25">
+    <BattleCardDesc ID="25">
       <LocalizedName>Stop n' Drop</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="26">
+    <BattleCardDesc ID="26">
       <LocalizedName>Azur Pulsar</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="27">
+    <BattleCardDesc ID="27">
       <LocalizedName>Spark Swirl</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="28">
+    <BattleCardDesc ID="28">
       <LocalizedName>From Ashes</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="29">
+    <BattleCardDesc ID="29">
       <LocalizedName>Affixed Blade</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="30">
+    <BattleCardDesc ID="30">
       <LocalizedName>Stock Swipe</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="31">
+    <BattleCardDesc ID="31">
       <LocalizedName>Hold Stance</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="32">
+    <BattleCardDesc ID="32">
       <LocalizedName>Blunted Assault</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="33">
+    <BattleCardDesc ID="33">
       <LocalizedName>Empowered Slug</LocalizedName>
     </BattleCardDesc>
-	<BattleCardDesc ID="34">
+    <BattleCardDesc ID="34">
       <LocalizedName>Rifled Swing</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="35">
+      <LocalizedName>Orbit</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="36">
+      <LocalizedName>Radial</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="37">
+      <LocalizedName>Outer Refract</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="38">
+      <LocalizedName>Break Path</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="39">
+      <LocalizedName>Engulf</LocalizedName>
     </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>
