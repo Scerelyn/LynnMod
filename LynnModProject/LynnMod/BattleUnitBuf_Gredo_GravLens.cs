@@ -20,12 +20,12 @@ namespace Ruina
 
         public override void OnRoundEnd()
         {
-            base.OnRoundEnd();
             if (!performedAction)
             {
                 _owner.TakeDamage(stack);
-                performedAction = false;
             }
+            performedAction = false;
+            base.OnRoundEnd();
         }
 
         public override void OnRollDice(BattleDiceBehavior behavior)

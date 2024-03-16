@@ -16,6 +16,11 @@ namespace Ruina
         protected override string keywordIconId => "Penumbric";
         public override BufPositiveType positiveType => BufPositiveType.None;
 
+        public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
+        {
+            atkDice.owner.TakeDamage(stack);
+        }
+
         public override void Init(BattleUnitModel owner)
         {
             base.Init(owner);

@@ -16,14 +16,12 @@ namespace Ruina
         public override void OnBreakState()
         {
             BattleUnitBuf_Gredo_Penumbric penBuf = owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b is BattleUnitBuf_Gredo_Penumbric) as BattleUnitBuf_Gredo_Penumbric;
-            if (penBuf != null)
+            if (penBuf == null)
             {
-                penBuf.stack += penBufSize;
+                penBuf = new BattleUnitBuf_Gredo_Penumbric();
+                owner.bufListDetail.AddBuf(penBuf);
             }
-            else
-            {
-                owner.bufListDetail.AddBuf(new BattleUnitBuf_Gredo_Penumbric() { stack = penBufSize });
-            }
+            penBuf.stack += penBufSize;
         }
     }
 }

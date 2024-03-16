@@ -13,7 +13,12 @@ namespace Ruina
 
         private readonly int buffStartMax = 25;
         private readonly int buffMax = 40;
-        
+
+        public override bool IsImmuneDmg(DamageType type, KeywordBuf keyword = KeywordBuf.None)
+        {
+            return type == DamageType.Attack;
+        }
+
         public override void OnWaveStart()
         {
             owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Resistance, buffStartMax);
@@ -30,15 +35,6 @@ namespace Ruina
             {
                 resBuff.stack += resBuff.stack > buffMax - 5 ? buffMax - resBuff.stack : 5;
             }
-        }
-
-        public override void OnTakeDamageByAttack(BattleDiceBehavior atkDice, int dmg)
-        {
-            atkDice.ApplyDiceStatBonus(new DiceStatBonus()
-            {
-                dmgRate = -9999
-            });
-            base.OnTakeDamageByAttack(atkDice, dmg);
         }
     }
 }
