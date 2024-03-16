@@ -43,12 +43,12 @@
     </Move>
     <Fire>
       <Direction>Side</Direction>
-      <Pivot pivot_x="-200.1" pivot_y="-400" />
+      <Pivot pivot_x="-200" pivot_y="-400" />
       <Head head_x="-58" head_y="377" rotation="0" head_enable="True" />
     </Fire>
     <Aim>
       <Direction>Side</Direction>
-      <Pivot pivot_x="126.5" pivot_y="-400" />
+      <Pivot pivot_x="126" pivot_y="-400" />
       <Head head_x="-28" head_y="386" rotation="0" head_enable="True" />
     </Aim>
   </ClothInfo>

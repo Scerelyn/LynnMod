@@ -9,10 +9,11 @@ namespace Ruina
     public class PassiveAbility_Gredo_BlackStar : PassiveAbilityBase
     {
         public static string Name => "The Black Star";
-        public static string Desc => "(Untransferable) Receive no damage from attacks. Gain 25 Resistance at the start of the Act. Gain 5 Resisistance every Scene (Max 40)";
+        public static string Desc => "(Untransferable) Receive no damage from attacks. Gain 25 Resistance at the start of the Act. Gain 3 Resisistance every Scene (Max 40)";
 
-        private readonly int buffStartMax = 25;
+        private readonly int buffStartMax = 22;
         private readonly int buffMax = 40;
+        private readonly int buffPerTurn = 3;
 
         public override bool IsImmuneDmg(DamageType type, KeywordBuf keyword = KeywordBuf.None)
         {
@@ -29,11 +30,11 @@ namespace Ruina
             BattleUnitBuf resBuff = owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b.bufType == KeywordBuf.Resistance);
             if (resBuff == null)
             {
-                owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Resistance, 5);
+                owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Resistance, buffPerTurn);
             }
             else if(resBuff.stack < buffMax)
             {
-                resBuff.stack += resBuff.stack > buffMax - 5 ? buffMax - resBuff.stack : 5;
+                resBuff.stack += resBuff.stack > buffMax - buffPerTurn ? buffMax - resBuff.stack : buffPerTurn;
             }
         }
     }

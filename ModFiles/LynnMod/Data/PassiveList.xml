@@ -141,7 +141,7 @@
     <Cost>9</Cost>
     <Script>Gredo_BlackStar</Script>
     <Name>Black Star</Name>
-    <Desc>(Untransferable) Receive no damage from attacks. Gain 25 Resistance at the start of the Act. Gain 5 Resisistance every Scene (Max 40)</Desc>
+    <Desc>(Untransferable) Receive no damage from attacks. Gain 25 Resistance at the start of the Act. Gain 3 Resisistance every Scene (Max 40)</Desc>
   </Passive>
   <Passive ID="12">
     <Negative>false</Negative>
@@ -154,6 +154,6 @@
     <Cost>6</Cost>
     <Script>Gredo_StarBurst</Script>
     <Name>Star Burst</Name>
-    <Desc>When staggered, gain 5 Penumbric</Desc>
+    <Desc>When staggered, gain 3 Penumbric</Desc>
   </Passive>
 </PassiveXmlRoot>

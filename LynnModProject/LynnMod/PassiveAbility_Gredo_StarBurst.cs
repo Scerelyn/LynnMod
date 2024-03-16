@@ -9,9 +9,9 @@ namespace Ruina
     public class PassiveAbility_Gredo_StarBurst : PassiveAbilityBase
     {
         public static string Name = "Star Burst";
-        public static string Desc = "When staggered, gain 5 Penumbric";
+        public static string Desc = "When staggered, gain 3 Penumbric";
 
-        private readonly int penBufSize = 5;
+        private readonly int penBufSize = 3;
 
         public override void OnBreakState()
         {
