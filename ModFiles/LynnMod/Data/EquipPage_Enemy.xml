@@ -261,8 +261,8 @@
       <Passive Pid="@origin">230018</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
-    <CharacterSkin>SevenUnit</CharacterSkin>
-    <CharacterSkinType>Lor</CharacterSkinType>
+    <CharacterSkin>Gredo</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
     <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
