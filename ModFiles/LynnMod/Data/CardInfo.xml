@@ -855,14 +855,14 @@
   <Card ID="35">
     <Name>Orbit</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Orbit.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>energy1</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="energy1atk" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+	  <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="energy1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -879,7 +879,7 @@
   <Card ID="36">
     <Name>Radial</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Radial.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>drawAndEnergy</Script>
@@ -902,7 +902,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="37">
-    <Name>Outer Refract</Name>
+    <Artwork>Outer Refract.png</Artwork>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -910,10 +910,10 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Tanya_S1" Script="" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="9" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Tanya_J" Script="Gredo_GravLens1" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="Gredo_GravLens1" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="9" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Tanya_Z" Script="Gredo_GravLens1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Tanya_S1" Script="" ActionScript="" Desc="" />
+	  <Behaviour Min="4" Dice="9" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Tanya_Z" Script="Gredo_GravLens1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -930,7 +930,7 @@
   <Card ID="38">
     <Name>Break Path</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Break Path.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
@@ -955,7 +955,7 @@
   <Card ID="39">
     <Name>Engulf</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Engulf.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
