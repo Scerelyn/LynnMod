@@ -123,19 +123,20 @@
   </Character>
   <Character ID="7">
     <Type ID="START_BATTLE">
-      <BattleDialog ID="0">Enter</BattleDialog>
+      <BattleDialog ID="0">This Star has arrived</BattleDialog>
     </Type>
     <Type ID="BATTLE_VICTORY">
-      <BattleDialog ID="0">V</BattleDialog>
+      <BattleDialog ID="0">...And all light is consumed</BattleDialog>
     </Type>
     <Type ID="DEATH">
-      <BattleDialog ID="0">D</BattleDialog>
+      <BattleDialog ID="0">This Star will not fizzle away!</BattleDialog>
     </Type>
     <Type ID="COLLEAGUE_DEATH">
-      <BattleDialog ID="0">Oh noes</BattleDialog>
+      <BattleDialog ID="0">Hmm...</BattleDialog>
     </Type>
     <Type ID="KILLS_OPPONENT">
-      <BattleDialog ID="0">e</BattleDialog>
+      <BattleDialog ID="0">Your light ends here</BattleDialog>
+      <BattleDialog ID="1">There is no light at the end of your tunnel</BattleDialog>
     </Type>
   </Character>
 </BattleDialogRoot>
