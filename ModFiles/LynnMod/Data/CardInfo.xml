@@ -862,7 +862,7 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="3" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-	  <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="energy1atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="energy1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -885,8 +885,8 @@
     <Script>drawAndEnergy</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Shadow_H" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Shadow_Z" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Shadow_H" Script="Gredo_GravLens1" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Shadow_Z" Script="Gredo_GravLens1" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Tanya_S1" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -902,18 +902,18 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="37">
-    <Artwork>Outer Refract.png</Artwork>
+    <Name>Outer Refract</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Outer Refract.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="3" Dice="9" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Tanya_J" Script="Gredo_GravLens1" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="Gredo_GravLens1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Shadow_H" Script="eileen_Stun" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Tanya_S1" Script="" ActionScript="" Desc="" />
-	  <Behaviour Min="4" Dice="9" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Tanya_Z" Script="Gredo_GravLens1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="9" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Tanya_Z" Script="Gredo_GravLens1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
