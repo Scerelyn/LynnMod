@@ -43,7 +43,7 @@
     </Move>
     <Fire>
       <Direction>Front</Direction>
-      <Pivot pivot_x="243.8" pivot_y="-257.4001" />
+      <Pivot pivot_x="244" pivot_y="-257" />
       <Head head_x="2" head_y="327" rotation="0" head_enable="True" />
     </Fire>
     <Aim>
