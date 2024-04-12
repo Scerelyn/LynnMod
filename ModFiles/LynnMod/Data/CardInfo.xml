@@ -528,6 +528,7 @@
     <TextId>-1</TextId>
     <Artwork>Stunning Fire.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Keyword>Enbana_YellowFlame</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
     <ScriptDesc />
@@ -553,6 +554,7 @@
     <TextId>-1</TextId>
     <Artwork>Form Sting.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Keyword>Enbana_YellowFlame</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
     <ScriptDesc />
@@ -579,6 +581,7 @@
     <Rarity>Unique</Rarity>
     <Option>OnlyPage</Option>
     <Keyword>onlypage_Enbana_Keyword</Keyword>
+    <Keyword>Enbana_BlueFlame</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -604,6 +607,7 @@
     <TextId>-1</TextId>
     <Artwork>Stop n Drop.png</Artwork>
     <Rarity>Uncommon</Rarity>
+    <Keyword>Enbana_YellowFlame</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -629,6 +633,7 @@
     <TextId>-1</TextId>
     <Artwork>Azur Pulsar.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Keyword>Enbana_BlueFlame</Keyword>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>philip_powerup2bytargetburn8</Script>
     <ScriptDesc />
@@ -654,6 +659,7 @@
     <TextId>-1</TextId>
     <Artwork>Spark Swirl.png</Artwork>
     <Rarity>Uncommon</Rarity>
+    <Keyword>Enbana_YellowFlame</Keyword>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
     <ScriptDesc />
@@ -681,6 +687,7 @@
     <Rarity>Unique</Rarity>
     <Option>OnlyPage</Option>
     <Keyword>onlypage_Enbana_Keyword</Keyword>
+    <Keyword>Enbana_BlueFlame</Keyword>
     <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>drawCard2</Script>
     <ScriptDesc />
@@ -881,6 +888,7 @@
     <TextId>-1</TextId>
     <Artwork>Radial.png</Artwork>
     <Rarity>Uncommon</Rarity>
+    <Keyword>Gredo_Umbral</Keyword>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>drawAndEnergy</Script>
     <ScriptDesc />
@@ -906,6 +914,7 @@
     <TextId>-1</TextId>
     <Artwork>Outer Refract.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Keyword>Gredo_Umbral</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
@@ -957,6 +966,9 @@
     <TextId>-1</TextId>
     <Artwork>Engulf.png</Artwork>
     <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>onlypage_Gredo_Keyword</Keyword>
+    <Keyword>Gredo_Umbral</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
