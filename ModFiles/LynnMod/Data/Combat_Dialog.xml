@@ -139,4 +139,11 @@
       <BattleDialog ID="1">There is no light at the end of your tunnel</BattleDialog>
     </Type>
   </Character>
+  <Character ID="8">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
 </BattleDialogRoot>

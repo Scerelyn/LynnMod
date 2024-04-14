@@ -156,4 +156,30 @@
     <Name>Star Burst</Name>
     <Desc>When staggered, gain 3 Penumbric</Desc>
   </Passive>
+  <Passive ID="13">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Rube_Clarity</Script>
+    <Name>Clarity</Name>
+    <Desc>If this character has no status effects, gain +3 Dice power. If the target has no statuses, inflict double damage</Desc>
+  </Passive>
+  <Passive ID="14">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>Rube_RedSky</Script>
+    <Name>Red Sky</Name>
+    <Desc>(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist.</Desc>
+  </Passive>
 </PassiveXmlRoot>

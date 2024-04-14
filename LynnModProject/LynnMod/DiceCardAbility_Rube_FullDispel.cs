@@ -8,7 +8,7 @@ namespace Ruina
 {
     public class DiceCardAbility_Rube_FullDispel : DiceCardAbilityBase
     {
-        public static string Desc = "[On Hit] Dispel all status effects on target, and inflict bonus damage equal to the sum of all stacks of effects on target and user";
+        public static string Desc = "[On Hit] Dispel all status effects on target, and inflict bonus damage equal to the sum of all stacks of all effects on target and user";
 
         public override void OnSucceedAttack()
         {
