@@ -290,9 +290,9 @@
       <SpeedMin>3</SpeedMin>
       <Speed>7</Speed>
       <SpeedDiceNum>0</SpeedDiceNum>
-      <SResist>Endure</SResist>
+      <SResist>Normal</SResist>
       <PResist>Normal</PResist>
-      <HResist>Normal</HResist>
+      <HResist>Endure</HResist>
       <SBResist>Normal</SBResist>
       <PBResist>Endure</PBResist>
       <HBResist>Normal</HBResist>
@@ -302,6 +302,7 @@
       <Passive Pid="@origin">10008</Passive>
       <Passive>14</Passive>
       <Passive>13</Passive>
+      <Passive>15</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
     <CharacterSkin>MiraeNamed</CharacterSkin>

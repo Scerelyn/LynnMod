@@ -11,16 +11,16 @@ namespace Ruina
         public static string Name = "Red Sky";
         public static string Desc = "(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist.";
 
-        private Random rng = new Random();
+        private static Random rng = new Random();
 
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {
             BattleUnitModel target = behavior?.card?.target;
             if (target != null)
             {
-                if (target.bufListDetail.GetActivatedBufList().Any())
+                if (target.bufListDetail.GetActivatedBufList().Count > 0)
                 {
-                    BattleUnitBuf randomTargetStatus = target.bufListDetail.GetActivatedBufList()[rng.Next(0, target.bufListDetail.GetActivatedBufList().Count - 1)];
+                    BattleUnitBuf randomTargetStatus = target.bufListDetail.GetActivatedBufList()[rng.Next(0, target.bufListDetail.GetActivatedBufList().Count)];
                     target.bufListDetail.RemoveBuf(randomTargetStatus);
                     switch (randomTargetStatus.positiveType)
                     {
@@ -33,9 +33,9 @@ namespace Ruina
                     }
                 }
             }
-            if (owner.bufListDetail.GetActivatedBufList().Any())
+            if (owner.bufListDetail.GetActivatedBufList().Count > 0)
             {
-                BattleUnitBuf randomOwnerStatus = owner.bufListDetail.GetActivatedBufList()[rng.Next(0, target.bufListDetail.GetActivatedBufList().Count - 1)];
+                BattleUnitBuf randomOwnerStatus = owner.bufListDetail.GetActivatedBufList()[rng.Next(0, owner.bufListDetail.GetActivatedBufList().Count)];
                 owner.bufListDetail.RemoveBuf(randomOwnerStatus);
                 switch (randomOwnerStatus.positiveType)
                 {

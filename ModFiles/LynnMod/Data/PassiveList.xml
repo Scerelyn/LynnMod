@@ -174,12 +174,25 @@
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
     <Lock>false</Lock>
-    <CanGivePassive>true</CanGivePassive>
+    <CanGivePassive>false</CanGivePassive>
     <CanReceivePassive>false</CanReceivePassive>
     <InnerType>-1</InnerType>
     <Cost>9</Cost>
     <Script>Rube_RedSky</Script>
     <Name>Red Sky</Name>
     <Desc>(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist.</Desc>
+  </Passive>
+  <Passive ID="15">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Rube_EmotionClear</Script>
+    <Name>Garnet Airs</Name>
+    <Desc>At the start of each Scene, dispel 1 random status for every emotion level and gain HP equal to the stack</Desc>
   </Passive>
 </PassiveXmlRoot>

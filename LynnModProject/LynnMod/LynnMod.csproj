@@ -88,6 +88,8 @@
     <Compile Include="DiceCardSelfAbility_Lynn_ParaGain2.cs" />
     <Compile Include="DiceCardSelfAbility_Lynn_ParaGain1.cs" />
     <Compile Include="DiceCardSelfAbility_Lynn_ShockDraw.cs" />
+    <Compile Include="DiceCardSelfAbility_Rube_ClearOut.cs" />
+    <Compile Include="DiceCardSelfAbility_Rube_ClearSingleDraw1.cs" />
     <Compile Include="DiceCardSelfAbility_Rube_Similars.cs" />
     <Compile Include="DiceCardSelfAbility_Saeka_Empowered.cs" />
     <Compile Include="DiceCardAbility_Gredo_Immobile.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="PassiveAbility_Lynn_EField.cs" />
     <Compile Include="PassiveAbility_Lynn_NimbleFox.cs" />
     <Compile Include="PassiveAbility_Rube_Clarity.cs" />
+    <Compile Include="PassiveAbility_Rube_EmotionClear.cs" />
     <Compile Include="PassiveAbility_Rube_RedSky.cs" />
     <Compile Include="PassiveAbility_Saeka_KillAbsorb.cs" />
     <Compile Include="PassiveAbility_Saeka_PowerMaintain.cs" />

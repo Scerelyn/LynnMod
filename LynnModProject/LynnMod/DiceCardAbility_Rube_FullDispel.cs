@@ -8,7 +8,7 @@ namespace Ruina
 {
     public class DiceCardAbility_Rube_FullDispel : DiceCardAbilityBase
     {
-        public static string Desc = "[On Hit] Dispel all status effects on target, and inflict bonus damage equal to the sum of all stacks of all effects on target and user";
+        public static string Desc = "[On Hit] Dispel all status effects on self and target, and inflict bonus damage equal to the sum of all stacks of all effects on target and self";
 
         public override void OnSucceedAttack()
         {
@@ -22,9 +22,11 @@ namespace Ruina
                     bonusDamage += buff.stack;
                     target.bufListDetail.RemoveBuf(buff);
                 }
-                if (owner.bufListDetail.GetActivatedBufList().Any())
+                for (int i = owner.bufListDetail.GetActivatedBufList().Count - 1; i >= 0; i--)
                 {
-                    bonusDamage += owner.bufListDetail.GetActivatedBufList().Sum(b => b.stack);
+                    BattleUnitBuf buff = owner.bufListDetail.GetActivatedBufList()[i];
+                    bonusDamage += buff.stack;
+                    owner.bufListDetail.RemoveBuf(buff);
                 }
                 target.TakeDamage(bonusDamage);
             }

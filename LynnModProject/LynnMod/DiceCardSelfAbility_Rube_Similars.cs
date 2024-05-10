@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ruina
 {
-    public class DiceCardSelfAbility_Rube_Similars : DiceCardAbilityBase
+    public class DiceCardSelfAbility_Rube_Similars : DiceCardSelfAbilityBase
     {
-        public static string Desc = "Dice on this page gain +2 Power if the target has only all buffs, or only all ailments";
+        public static string Desc = "Dice on this page gain +4 Power if the target has only all buffs, or only all ailments";
 
-        public override void OnRollDice()
+        public override void OnRollDice(BattleDiceBehavior behavior)
         {
             BattleUnitModel target = behavior?.card?.target;
             if (target != null)
@@ -23,7 +23,7 @@ namespace Ruina
                     {
                         behavior.ApplyDiceStatBonus(new DiceStatBonus()
                         {
-                            power = 2
+                            power = 4
                         });
                     }
                 }

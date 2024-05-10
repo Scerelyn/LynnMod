@@ -290,10 +290,13 @@
       <SBResist>Normal</SBResist>
       <PBResist>Endure</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>4</MaxPlayPoint>
+      <MaxPlayPoint>6</MaxPlayPoint>
       <StartPlayPoint>4</StartPlayPoint>
-      <AddedStartDraw>0</AddedStartDraw>
+      <AddedStartDraw>3</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
+      <Passive>14</Passive>
+      <Passive>13</Passive>
+      <Passive>15</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
     <CharacterSkin>MiraeNamed</CharacterSkin>
@@ -304,7 +307,7 @@
     <RangeType>Hybrid</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
-    <SpeedDiceNum>1</SpeedDiceNum>
+    <SpeedDiceNum>2</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
 </BookXmlRoot>

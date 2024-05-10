@@ -1050,6 +1050,7 @@
       <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ClassOneFixer_G" Script="" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ClassOneFixer_G" Script="" ActionScript="" Desc="" />
       <Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TwistedElena_H" Script="burnBoth" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TwistedElena_H" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -1069,7 +1070,7 @@
     <Artwork />
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
-    <Script>drawCard</Script>
+    <Script>Rube_ClearSingleDraw1</Script>
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistedElena_Z" Script="weak1atk" ActionScript="" Desc="" />
@@ -1101,6 +1102,55 @@
       <Behaviour Min="9" Dice="13" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Elena_H" Script="greta_destroyDice" ActionScript="" Desc="" />
       <Behaviour Min="8" Dice="15" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TwistedElena_J" Script="Rube_FullDispel" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="8" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="45">
+    <Name>F</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>Rube_ClearOut</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TwistedElena_J" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ClassOneFixer_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Elena_H" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="46">
+    <Name>G</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>Rube_Similars</Script>
+    <ScriptDesc />
+    <BehaviourList>      
+      <Behaviour Min="2" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistedElena_Z" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
