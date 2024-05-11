@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Book of Rube</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-361" />
+      <Head head_x="14" head_y="384" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="18" pivot_y="-361" />
+      <Head head_x="12" head_y="384" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="21" pivot_y="-361" />
+      <Head head_x="18" head_y="380" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-12" pivot_y="-361" />
+      <Head head_x="12" head_y="373" rotation="0" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-41" pivot_y="-361" />
+      <Head head_x="-44" head_y="306" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="136" pivot_y="-361" />
+      <Head head_x="-69" head_y="311" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-46" pivot_y="-361" />
+      <Head head_x="0" head_y="380" rotation="0" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-361" />
+      <Head head_x="-16" head_y="377" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="124" pivot_y="-361" />
+      <Head head_x="-60" head_y="315" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="12" pivot_y="-359" />
+      <Head head_x="16" head_y="377" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>
