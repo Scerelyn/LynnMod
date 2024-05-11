@@ -305,12 +305,12 @@
       <Passive>15</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
-    <CharacterSkin>MiraeNamed</CharacterSkin>
-    <CharacterSkinType>Lor</CharacterSkinType>
+    <CharacterSkin>Rube_Librarian</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
     <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
-    <RangeType>Hybrid</RangeType>
+    <RangeType>Melee</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
     <SpeedDiceNum>1</SpeedDiceNum>
