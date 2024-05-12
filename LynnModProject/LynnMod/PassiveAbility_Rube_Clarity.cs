@@ -16,7 +16,7 @@ namespace Ruina
             BattleUnitModel target = behavior?.card?.target;
             if (target != null)
             {
-                if (!target.bufListDetail.GetActivatedBufList().Any())
+                if (!target.bufListDetail.GetActivatedBufList().Where(b => !(b is BattleUnitBuf_Rube_Dust)).Any())
                 {
                     behavior.ApplyDiceStatBonus(new DiceStatBonus()
                     {

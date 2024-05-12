@@ -180,7 +180,7 @@
     <Cost>9</Cost>
     <Script>Rube_RedSky</Script>
     <Name>Red Sky</Name>
-    <Desc>(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist.</Desc>
+    <Desc>(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist. Gain 1 Dice Power per Crimson Dust on target.</Desc>
   </Passive>
   <Passive ID="15">
     <Negative>false</Negative>

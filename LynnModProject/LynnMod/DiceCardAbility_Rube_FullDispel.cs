@@ -8,27 +8,35 @@ namespace Ruina
 {
     public class DiceCardAbility_Rube_FullDispel : DiceCardAbilityBase
     {
-        public static string Desc = "[On Hit] Dispel all status effects on self and target, and inflict bonus damage equal to the sum of all stacks of all effects on target and self";
+        public static string Desc = "[On Hit] Burst Crimson Dust, and clear all statuses on self";
 
         public override void OnSucceedAttack()
         {
             BattleUnitModel target = base.card.target;
             int bonusDamage = 0;
+            int dustMult = 1;
             if (target != null)
             {
-                for(int i = target.bufListDetail.GetActivatedBufList().Count -1; i >= 0;  i--)
+                BattleUnitBuf dustBuff = target.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b is BattleUnitBuf_Rube_Dust);
+                if (dustBuff != null)
                 {
-                    BattleUnitBuf buff = target.bufListDetail.GetActivatedBufList()[i];
-                    bonusDamage += buff.stack;
-                    target.bufListDetail.RemoveBuf(buff);
+                    dustMult = dustBuff.stack;
+                    for (int i = target.bufListDetail.GetActivatedBufList().Count -1; i >= 0;  i--)
+                    {
+                        BattleUnitBuf buff = target.bufListDetail.GetActivatedBufList()[i];
+                        bonusDamage++;
+                        target.bufListDetail.RemoveBuf(buff);
+                    }
                 }
                 for (int i = owner.bufListDetail.GetActivatedBufList().Count - 1; i >= 0; i--)
                 {
                     BattleUnitBuf buff = owner.bufListDetail.GetActivatedBufList()[i];
-                    bonusDamage += buff.stack;
                     owner.bufListDetail.RemoveBuf(buff);
                 }
-                target.TakeDamage(bonusDamage);
+                if (bonusDamage > 0)
+                {
+                    target.TakeDamage(bonusDamage * dustMult);
+                }
             }
         }
     }
