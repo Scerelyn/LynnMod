@@ -64,5 +64,14 @@
         <Desc></Desc>
       </TextList>
     </BookDesc>
+    <BookDesc BookID="8">
+      <BookName>Rube's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000008">
+      <BookName>Rube's Page</BookName>
+      <TextList>
+        <Desc></Desc>
+      </TextList>
+    </BookDesc>
   </bookDescList>
 </BookDescRoot>

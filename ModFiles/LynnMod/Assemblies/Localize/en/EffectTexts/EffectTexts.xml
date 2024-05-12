@@ -21,6 +21,10 @@
       <Name>Umbral Lens</Name>
       <Desc>If this character takes no action, receive {0} damage</Desc>
     </BattleEffectText>
+    <BattleEffectText ID="Rube_Dust">
+      <Name>Crimson Dust</Name>
+      <Desc>When triggered by a Burst effect, dispel all statuses and inflict damage equal to {0} times the amount of statuses removed. This status is ignored by passives 'Red Sky' and 'Clarity'.</Desc>
+    </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">
       <Name>Lynn's Exclusive Page</Name>
       <Desc>Can only be set in the deck of Lynn's Key page.</Desc>
@@ -44,6 +48,10 @@
     <BattleEffectText ID="onlypage_Gredo_Keyword">
       <Name>Gredo's Exclusive Page</Name>
       <Desc>Can only be set in the deck of Gredo's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Rube_Keyword">
+      <Name>Rube's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Rube's Key page.</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

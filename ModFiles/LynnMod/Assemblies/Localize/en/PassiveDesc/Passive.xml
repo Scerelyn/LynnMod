@@ -48,4 +48,16 @@
     <Name>Star Burst</Name>
     <Desc>When staggered, gain 3 Penumbric</Desc>
   </PassiveDesc>
+  <PassiveDesc ID="13">
+    <Name>Clarity</Name>
+    <Desc>If this character has no status effects, gain +3 Dice power. If the target has no statuses, inflict double damage</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="14">
+    <Name>Red Sky</Name>
+    <Desc>(Untransferable) On Clash Win, dispel a random status effect on target and self. If it was a negative ailment dispelled, gain 5 hp. If it was positive, gain 5 stagger resist. Gain 1 Dice Power per Crimson Dust on target.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="15">
+    <Name>Gernet Airs</Name>
+    <Desc>At the start of each Scene, dispel 1 random status for every emotion level and gain HP equal to the stack</Desc>
+  </PassiveDesc>
 </PassiveDescRoot>

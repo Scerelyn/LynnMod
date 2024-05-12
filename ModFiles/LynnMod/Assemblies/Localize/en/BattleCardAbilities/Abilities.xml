@@ -12,7 +12,16 @@
   <BattleCardAbility ID="Lynn_ShockDraw">
     <Desc>[On Use] Draw 1 page. If inflicted with paralysis, draw another and gain 1 Light</Desc>
   </BattleCardAbility>
+  <BattleCardAbility ID="Rube_ClearOut">
+    <Desc>[On Use] Dispel 3 random statuses. For each one dispelled, draw 1 card and gain 1 light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Rube_ClearSingDraw1">
+    <Desc>[On Use] Dispel a random status and draw 1 card</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Rube_Similars">
+    <Desc>Dice on this page gain +4 Power if the target has only all buffs, or only all ailments</Desc>
+  </BattleCardAbility>
   <BattleCardAbility ID="Saeka_Empowered">
-    <Desc>Dice on this page lose 12 power. Each unique buff on user gives 1 additional dice power.</Desc>
+    <Desc>Dice on this page lose 12 power. Each unique buff on user gives 1 additional dice power</Desc>
   </BattleCardAbility>
 </BattleCardAbilityDescRoot>

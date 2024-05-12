@@ -140,10 +140,22 @@
     </Type>
   </Character>
   <Character ID="8">
-    <Type ID="START_BATTLE" />
-    <Type ID="BATTLE_VICTORY" />
-    <Type ID="DEATH" />
-    <Type ID="COLLEAGUE_DEATH" />
-    <Type ID="KILLS_OPPONENT" />
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">The skies here are...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">No cloud left, only clarity</BattleDialog>
+      <BattleDialog ID="1">Open skies, free winds</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">All fogged out...</BattleDialog>
+      <BattleDialog ID="1">Too many clouds tonight</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Huh?</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">The skies are clearing up</BattleDialog>
+    </Type>
   </Character>
 </BattleDialogRoot>
