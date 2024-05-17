@@ -13,6 +13,23 @@ namespace Ruina
 
         private static Random rng = new Random();
 
+        public override void OnRollDice(BattleDiceBehavior behavior)
+        {
+            BattleUnitModel target = behavior?.card?.target;
+
+            if (target != null)
+            {
+                BattleUnitBuf dust = target.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b is BattleUnitBuf_Rube_Dust);
+                if (dust != null)
+                {
+                    behavior.ApplyDiceStatBonus(new DiceStatBonus()
+                    {
+                        power = dust.stack 
+                    });
+                }
+            }
+        }
+
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {
             BattleUnitModel target = behavior?.card?.target;
