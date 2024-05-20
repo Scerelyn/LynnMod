@@ -118,5 +118,26 @@
     <BattleCardDesc ID="39">
       <LocalizedName>Engulf</LocalizedName>
     </BattleCardDesc>
+    <BattleCardDesc ID="40">
+      <LocalizedName>Open Air</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="41">
+      <LocalizedName>Clouded Parting</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="42">
+      <LocalizedName>Jetstream</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="43">
+      <LocalizedName>Through the Mist</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="44">
+      <LocalizedName>Clear Skies</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="45">
+      <LocalizedName>Reddened Gusts</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="46">
+      <LocalizedName>Contrail</LocalizedName>
+    </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>

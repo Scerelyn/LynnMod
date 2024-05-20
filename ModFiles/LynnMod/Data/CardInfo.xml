@@ -990,7 +990,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="40">
-    <Name>A</Name>
+    <Name>Open Air</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
@@ -1014,7 +1014,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="41">
-    <Name>B</Name>
+    <Name>Clouded Parting</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
@@ -1039,7 +1039,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="42">
-    <Name>C</Name>
+    <Name>Jetstream</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1066,7 +1066,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="43">
-    <Name>D</Name>
+    <Name>Through the Mist</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1093,7 +1093,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="44">
-    <Name>E</Name>
+    <Name>Clear Skies</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
@@ -1118,7 +1118,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="45">
-    <Name>F</Name>
+    <Name>Reddened Gust</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1144,7 +1144,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="46">
-    <Name>G</Name>
+    <Name>Contrail</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
