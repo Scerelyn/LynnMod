@@ -4,7 +4,7 @@
   <BookUse ID="1">
     <Name>Book of Lynn</Name>
     <TextId />
-    <BookIcon />
+    <BookIcon>lynnfel_icon</BookIcon>
     <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000001</DropItem>
@@ -12,7 +12,7 @@
   <BookUse ID="2">
     <Name>Book of Fel</Name>
     <TextId />
-    <BookIcon />
+    <BookIcon>lynnfel_icon</BookIcon>
     <Chapter>7</Chapter>
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000002</DropItem>

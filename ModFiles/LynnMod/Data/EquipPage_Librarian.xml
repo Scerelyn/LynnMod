@@ -4,7 +4,7 @@
   <Book ID="10000001">
     <Name>Lynn's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <BookIcon>lynnfel_icon</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>102</HP>
@@ -45,7 +45,7 @@
   <Book ID="10000002">
     <Name>Fel's Page</Name>
     <TextId>-1</TextId>
-    <BookIcon />
+    <BookIcon>lynnfel_icon</BookIcon>
     <EquipEffect>
       <HpReduction>0</HpReduction>
       <HP>105</HP>
