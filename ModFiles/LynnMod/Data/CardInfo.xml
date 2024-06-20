@@ -992,7 +992,7 @@
   <Card ID="40">
     <Name>Open Air</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Open Air.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>energy2</Script>
@@ -1016,7 +1016,7 @@
   <Card ID="41">
     <Name>Clouded Parting</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Clouded Parting.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>drawCard</Script>
@@ -1041,7 +1041,7 @@
   <Card ID="42">
     <Name>Jetstream</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Jetstream.png</Artwork>
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
@@ -1068,7 +1068,7 @@
   <Card ID="43">
     <Name>Through the Mist</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Through the Mist.png</Artwork>
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
@@ -1095,7 +1095,7 @@
   <Card ID="44">
     <Name>Clear Skies</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Clear Skies.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script>strength1</Script>
@@ -1120,7 +1120,7 @@
   <Card ID="45">
     <Name>Reddened Gust</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Reddened Gust.png</Artwork>
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
@@ -1146,7 +1146,7 @@
   <Card ID="46">
     <Name>Contrail</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Contrail.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>Rube_Similars</Script>
