@@ -15,6 +15,8 @@ A five on five fight with characters who buff in various ways by self inflicting
 A one on five fight with a character who gains and keeps buffs, getting stronger with every hit, stagger, and kill
 ### Gredo
 A one on five fight with a character immune to attacks and builds damage from being staggered
+### Rube
+A one on five fight with a character who gains power from having no statuses and abilities to clear them out on self and enemies
 
 ## Directory Layout
 ### Art 
