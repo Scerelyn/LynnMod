@@ -639,8 +639,8 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Enbana_Azur_Pierce" Script="Enbana_BFlame1" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Liu1_J" Script="Enbana_Azur_Blunt" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Liu1_H" Script="Enbana_Azur_Slash" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Enbana_Azur_Blunt" Script="Enbana_BFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Enbana_Azur_Slash" Script="Enbana_BFlame1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
