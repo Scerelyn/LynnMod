@@ -49,7 +49,7 @@ namespace Ruina
             harmony.Patch(typeof(DiceEffectManager).GetMethod("CreateBehaviourEffect", AccessTools.all), new HarmonyMethod(method));
 
             GetArtWorks(new DirectoryInfo(path + "/ArtWork"));
-            GetCustomEffects(new DirectoryInfo(path + "/CustomEffect"));
+            GetCustomEffects(new DirectoryInfo(path + "/CustomEffects"));
 
         }
 
