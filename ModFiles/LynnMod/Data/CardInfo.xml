@@ -33,8 +33,8 @@
     <Script>Lynn_ParaGain2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="WarpCrew_J" Script="paralysis2pw" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="WarpCrew_H" Script="paralysis2atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Lynn_Slash" Script="paralysis2pw" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Lynn_Slash" Script="paralysis2atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -58,7 +58,7 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="3" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="WarpCrew_G" Script="" ActionScript="Lynn_ParaShock2" Desc="" />
-      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="WarpCrew_H" Script="Lynn_HardShock1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Lynn_Slash" Script="Lynn_HardShock1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -81,9 +81,9 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="WarpCrew_G" Script="Lynn_ParaShock2" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="WarpCrew_G" Script="Lynn_ParaShock1" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="WarpCrew_H" Script="paralysis2pw" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Lynn_Block" Script="Lynn_ParaShock2" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Lynn_Block" Script="Lynn_ParaShock1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Lynn_Blunt" Script="paralysis2pw" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -108,8 +108,8 @@
     <Script>Lynn_ParaGain1</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="12" Dice="25" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="BigBadWolf_Slash" Script="Lynn_HardShock2" ActionScript="" Desc="" />
-      <Behaviour Min="12" Dice="25" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="BigBadWolf_Slash" Script="Lynn_HardShock2" ActionScript="" Desc="" />
+      <Behaviour Min="12" Dice="25" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Lynn_Slash" Script="Lynn_HardShock2" ActionScript="" Desc="" />
+      <Behaviour Min="12" Dice="25" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Lynn_Slash" Script="Lynn_HardShock2" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -132,8 +132,8 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="WarpCrew_Z" Script="Lynn_ParaShock3" ActionScript="" Desc="" />
-      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="WarpCrew_J" Script="Lynn_ParaShock3" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Lynn_Pierce" Script="Lynn_ParaShock3" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Lynn_Blunt" Script="Lynn_ParaShock3" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="10" Type="Standby" Detail="Evasion" Motion="J" MotionDefault="N" EffectRes="" Script="paralysis1pw" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -281,8 +281,8 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="TwistedElena_H" Script="bleeding2atk" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="TwistedElena_H" Script="bleeding2atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Akao_Red_Slash" Script="bleeding2atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Akao_Red_Blunt" Script="bleeding2atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -305,9 +305,9 @@
     <Script>energy2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="RCorp_H" Script="binding2atk" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="6" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ch3_G" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="ch3_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Akao_Orange_Blunt" Script="binding2atk" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Akao_Orange_Block" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Akao_Orange_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -330,7 +330,7 @@
     <Script>drawCard2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="7" Dice="15" Type="Atk" Detail="Hit" Motion="J" MotionDefault="N" EffectRes="Pluto_J" Script="paralysis2atk" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="15" Type="Atk" Detail="Hit" Motion="J" MotionDefault="N" EffectRes="Akao_Yellow_Slash" Script="paralysis2atk" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="13" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="ch3_E" Script="paralysis1pw" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -354,9 +354,9 @@
     <Script>recoverHp1</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Bayyard_G" Script="drawCard1atk" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Bayyard_Z" Script="ally2recover3atk" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Bayyard_H" Script="galaxyEgoDice" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Akao_Green_Block" Script="drawCard1atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Akao_Green_Pierce" Script="ally2recover3atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Akao_Green_Slash" Script="galaxyEgoDice" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -403,9 +403,9 @@
     <Script>smokeSelf4draw</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="AwlOfNight_J" Script="smoke2atk" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="AwlOfNight_H" Script="light1smoke3atk" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="AwlOfNight_Z" Script="light1smoke3atk" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Akao_Urple_Slash" Script="smoke2atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Akao_Urple_Blunt" Script="light1smoke3atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Akao_Urple_Pierce" Script="light1smoke3atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -454,7 +454,7 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="9" Dice="13" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Usett_J" Script="Akao_PainTransfer" ActionScript="" Desc="" />
+      <Behaviour Min="9" Dice="13" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Akao_Sepia_Blunt" Script="Akao_PainTransfer" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="9" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Usett_G" Script="powerDownNext2pwTarget" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="9" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Usett_G" Script="powerDownNext2pwTarget" ActionScript="" Desc="" />
     </BehaviourList>
@@ -533,9 +533,9 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Liu1_Z" Script="Enbana_YFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Enbana_Yellow_Pierce" Script="Enbana_YFlame1" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Liu2_J" Script="Enbana_YFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Enbana_Yellow_Slash" Script="Enbana_YFlame1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -560,7 +560,7 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Liu2_G" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="LiuSection2Unit_J" Script="Enbana_YFlame2" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Enbana_Yellow_Slash" Script="Enbana_YFlame2" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -588,7 +588,7 @@
     <BehaviourList>
       <Behaviour Min="9" Dice="14" Type="Atk" Detail="Hit" Motion="J" MotionDefault="N" EffectRes="Liu2_J" Script="Enbana_FlamePurge" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="8" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Liu2_H" Script="vulnerable1atk" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Liu1_Z" Script="Enbana_BFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Enbana_Azur_Pierce" Script="Enbana_BFlame1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -612,9 +612,9 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Liu1_G" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Liu1_J" Script="Enbana_YFlame1" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Liu1_Z" Script="Enbana_YFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Enbana_Yellow_Block" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Enbana_Yellow_Slash" Script="Enbana_YFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Enbana_Yellow_Pierce" Script="Enbana_YFlame1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -638,9 +638,9 @@
     <Script>philip_powerup2bytargetburn8</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Liu1_Z" Script="Enbana_BFlame1" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Liu1_J" Script="Enbana_BFlame1" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Liu1_H" Script="Enbana_BFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Enbana_Azur_Pierce" Script="Enbana_BFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Liu1_J" Script="Enbana_Azur_Blunt" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Liu1_H" Script="Enbana_Azur_Slash" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -665,7 +665,7 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="3" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Liu2_J" Script="Enbana_YFlame2" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Enbana_Yellow_Blunt" Script="Enbana_YFlame2" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -694,7 +694,7 @@
     <BehaviourList>
       <Behaviour Min="7" Dice="15" Type="Atk" Detail="Hit" Motion="J" MotionDefault="N" EffectRes="Liu2_H" Script="Enbana_FlameHeal" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Liu1_Z" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Liu2_J" Script="Enbana_BFlame1" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Enbana_Azur_Blunt" Script="Enbana_BFlame1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -717,8 +717,8 @@
     <Script>energy2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Thumb_J" Script="energy1atk" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Saeka_Slash" Script="energy1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -741,8 +741,8 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="Z" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -765,9 +765,9 @@
     <Script>drawCard2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Thumb_J" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Saeka_Slash" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -790,10 +790,10 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_J" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="5" Dice="10" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Penetrate" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="10" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -818,8 +818,8 @@
     <Script>Saeka_Empowered</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="14" Dice="28" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="7" Dice="11" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Thumb_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="14" Dice="28" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="11" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -842,10 +842,10 @@
     <Script>drawAndEnergy</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Thumb_J" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Thumb_H" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Saeka_Block" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="Saeka_BuffGain" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
