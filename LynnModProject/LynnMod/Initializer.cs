@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using Battle.DiceAttackEffect;
+using HarmonyLib;
 using LOR_DiceSystem;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,8 @@ namespace Ruina
 
         public static Dictionary<string, Sprite> ArtWorks = new Dictionary<string, Sprite>();
 
+        public static Dictionary<string, Type> CustomEffects = new Dictionary<string, Type>();
+
         public override void OnInitializeMod()
         {
             base.OnInitializeMod();
@@ -42,7 +45,11 @@ namespace Ruina
             method = typeof(Initializer).GetMethod("UISpriteDataManager_GetStoryIcon");
             harmony.Patch(typeof(UISpriteDataManager).GetMethod("GetStoryIcon", AccessTools.all), new HarmonyMethod(method));
 
+            method = typeof(Initializer).GetMethod("DiceEffectManager_CreateBehaviourEffect");
+            harmony.Patch(typeof(DiceEffectManager).GetMethod("CreateBehaviourEffect", AccessTools.all), new HarmonyMethod(method));
+
             GetArtWorks(new DirectoryInfo(path + "/ArtWork"));
+            GetCustomEffects(new DirectoryInfo(path + "/CustomEffect"));
 
         }
 
@@ -223,6 +230,59 @@ namespace Ruina
                 string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
                 ArtWorks[fileNameWithoutExtension] = value;
             }
+        }
+
+        public static void GetCustomEffects(DirectoryInfo dir)
+        {
+            if (dir.GetDirectories().Length != 0)
+            {
+                DirectoryInfo[] directories = dir.GetDirectories();
+                for (int i = 0; i < directories.Length; i++)
+                {
+                    GetArtWorks(directories[i]);
+                }
+            }
+            FileInfo[] files = dir.GetFiles();
+            foreach (FileInfo fileInfo in files)
+            {
+                Texture2D texture2D = new Texture2D(2, 2);
+                texture2D.LoadImage(File.ReadAllBytes(fileInfo.FullName));
+                Sprite value = Sprite.Create(texture2D, new Rect(0f, 0f, texture2D.width, texture2D.height), new Vector2(0.5f, 0.5f));
+                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
+                ArtWorks[fileNameWithoutExtension + "_FX"] = value;
+            }
+        }
+
+        public static bool DiceEffectManager_CreateBehaviourEffect(ref DiceAttackEffect __result, string resource, float scaleFactor, BattleUnitView self, BattleUnitView target, float time = 1f)
+        {
+            if (resource == null)
+            {
+                __result = null;
+                return false;
+            }
+            if (!CustomEffects.ContainsKey(resource) && resource != string.Empty)
+            {
+                Type[] types = Assembly.LoadFrom(path + "/LynnMod.dll").GetTypes();
+                foreach (Type type in types)
+                {
+                    if (type.Name == "DiceAttackEffect_" + resource)
+                    {
+                        Type value = type;
+                        CustomEffects[resource] = value;
+                        break;
+                    }
+                }
+            }
+            if (CustomEffects.ContainsKey(resource))
+            {
+                Type componentType = CustomEffects[resource];
+                DiceAttackEffect diceAttackEffect = new GameObject(resource).AddComponent(componentType) as DiceAttackEffect;
+                diceAttackEffect.Initialize(self, target, time);
+                diceAttackEffect.SetScale(scaleFactor);
+                __result = diceAttackEffect;
+                return false;
+            }
+            return true;
         }
     }
 }

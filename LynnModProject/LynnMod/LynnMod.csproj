@@ -63,6 +63,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Orange_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Orange_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Sepia_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Urple_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Urple_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Urple_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Azur_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Azur_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Yellow_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Yellow_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Yellow_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Lynn_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Lynn_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Saeka_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Saeka_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Saeka_Pierce.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Saeka_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Lynn_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Lynn_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Yellow_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Azur_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Enbana_Azur_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Yellow_Slash.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Block.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Red_Blunt.cs" />
+    <Compile Include="AttackEffects\DiceAttackEffect_Akao_Red_Slash.cs" />
     <Compile Include="BattleUnitBuf_Rube_Dust.cs" />
     <Compile Include="BattleUnitBuf_Enbana_BlueFlame.cs" />
     <Compile Include="BattleUnitBuf_Enbana_YellowFlame.cs" />
