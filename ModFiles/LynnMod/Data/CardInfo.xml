@@ -559,7 +559,7 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Liu2_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Enbana_Yellow_Block" Script="" ActionScript="" Desc="" />
       <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Enbana_Yellow_Slash" Script="Enbana_YFlame2" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
