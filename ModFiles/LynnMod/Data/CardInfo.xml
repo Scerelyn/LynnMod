@@ -792,7 +792,7 @@
     <BehaviourList>
       <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Penetrate" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="Saeka_BuffGain" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="10" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>

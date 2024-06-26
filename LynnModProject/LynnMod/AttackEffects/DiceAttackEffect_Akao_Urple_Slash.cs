@@ -16,7 +16,7 @@ namespace Ruina.AttackEffects
         public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
         {
             duration = destroyTime;
-            spr.sprite = Initializer.ArtWorks["akao_urple_blunt_FX"];
+            spr.sprite = Initializer.ArtWorks["akao_urple_slash_FX"];
             base.Initialize(self, target, destroyTime);
         }
 
