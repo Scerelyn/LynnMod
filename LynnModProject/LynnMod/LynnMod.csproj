@@ -98,7 +98,8 @@
     <Compile Include="Citri\BattleUnitBuff_Citri_LunarPhase_HalfMoon.cs" />
     <Compile Include="Citri\BattleUnitBuff_Citri_LunarPhase_WaxingCrescent.cs" />
     <Compile Include="Citri\BattleUnitBuff_Citri_LunarPhase_NewMoon.cs" />
-    <Compile Include="Citri\DiceCardAbility_Citri_Lunatic.cs" />
+    <Compile Include="Citri\DiceCardAbility_Citri_Eclipsing.cs" />
+    <Compile Include="Citri\DiceCardSelfAbility_Citri_Lunatic.cs" />
     <Compile Include="Citri\DiceCardSelfAbility_Citri_BreakDraw2.cs" />
     <Compile Include="Citri\DiceCardSelfAbility_Citri_BreakDraw1.cs" />
     <Compile Include="Citri\DiceCardSelfAbility_Citri_LoseBreak2.cs" />

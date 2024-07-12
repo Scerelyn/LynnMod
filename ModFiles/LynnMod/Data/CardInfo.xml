@@ -1172,7 +1172,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="47">
-    <Name>A</Name>
+    <Name>Dial</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
@@ -1196,7 +1196,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="48">
-    <Name>B</Name>
+    <Name>Farside</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Uncommon</Rarity>
@@ -1221,7 +1221,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="49">
-    <Name>C</Name>
+    <Name>Lunar Break</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1245,7 +1245,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="50">
-    <Name>D</Name>
+    <Name>Farside</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1271,7 +1271,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="51">
-    <Name>E</Name>
+    <Name>False Collapse</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
@@ -1283,6 +1283,29 @@
       <Behaviour Min="3" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="2" Dice="10" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="10" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="52">
+    <Name>Ipomoea Alba</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="13" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="Citri_Eclipsing" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />

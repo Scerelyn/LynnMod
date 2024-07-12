@@ -19,18 +19,18 @@ namespace Ruina
         {
             behavior.ApplyDiceStatBonus(new DiceStatBonus()
             {
-                dmgRate = 100 + stack
+                dmgRate = stack
             });
         }
 
         public override void OnLoseHp(int dmg)
         {
-            stack = (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
         }
 
         public override void OnRoundStart()
         {
-            stack = (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
         }
 
         public override void Init(BattleUnitModel owner)
@@ -38,7 +38,7 @@ namespace Ruina
             base.Init(owner);
             typeof(BattleUnitBuf).GetField("_bufIcon", AccessTools.all).SetValue(this, Initializer.ArtWorks["Ecliptic"]);
             typeof(BattleUnitBuf).GetField("_iconInit", AccessTools.all).SetValue(this, true);
-            stack = (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
         }
     }
 }

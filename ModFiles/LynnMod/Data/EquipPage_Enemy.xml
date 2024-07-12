@@ -316,9 +316,9 @@
     <BookIcon />
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>600</HP>
+      <HP>800</HP>
       <DeadLine>0</DeadLine>
-      <Break>125</Break>
+      <Break>200</Break>
       <SpeedMin>4</SpeedMin>
       <Speed>7</Speed>
       <SpeedDiceNum>0</SpeedDiceNum>
