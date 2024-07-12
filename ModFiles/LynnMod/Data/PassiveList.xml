@@ -195,4 +195,17 @@
     <Name>Garnet Airs</Name>
     <Desc>At the start of each Scene, dispel 1 random status for every emotion level and gain HP equal to the stack</Desc>
   </Passive>
+  <Passive ID="16">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>Citri_PaleMoon</Script>
+    <Name>Pale Moon</Name>
+    <Desc>(Untransferable) Cannot be staggered. When stagger resist hits 0, reset it to max and advance Lunar Phase by 1</Desc>
+  </Passive>
 </PassiveXmlRoot>

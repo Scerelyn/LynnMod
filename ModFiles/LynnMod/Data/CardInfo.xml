@@ -1155,9 +1155,134 @@
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>Rube_Similars</Script>
     <ScriptDesc />
-    <BehaviourList>      
+    <BehaviourList>
       <Behaviour Min="2" Dice="7" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="TwistedElena_Z" Script="Rube_Dust1" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="47">
+    <Name>A</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>Citri_BreakDraw1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="48">
+    <Name>B</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>Citri_BreakDraw2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="49">
+    <Name>C</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>Citri_LoseBreak1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="9" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="vulnerable1atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="50">
+    <Name>D</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>Citri_LoseBreak2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="51">
+    <Name>E</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
+    <Script>Citri_Lunatic</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="10" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="10" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />

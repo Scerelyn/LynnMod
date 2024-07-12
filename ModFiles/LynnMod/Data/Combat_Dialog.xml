@@ -158,4 +158,11 @@
       <BattleDialog ID="0">The skies are clearing up</BattleDialog>
     </Type>
   </Character>
+  <Character ID="9">
+    <Type ID="START_BATTLE" />
+    <Type ID="BATTLE_VICTORY" />
+    <Type ID="DEATH" />
+    <Type ID="COLLEAGUE_DEATH" />
+    <Type ID="KILLS_OPPONENT" />
+  </Character>
 </BattleDialogRoot>

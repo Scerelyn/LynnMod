@@ -10,7 +10,7 @@ namespace Ruina
     public class BattleUnitBuff_Citri_LunarPhase_WaxingGibbous : BattleUnitBuf
     {
         public static string Name = "Waxing Gibbous";
-        public static string Desc = "Increase all Dice power by 3 and gain Ecliptic";
+        public static string Desc = "Increase all Dice power by 5 and gain Ecliptic";
 
         protected override string keywordId => "Citri_Lunar3";
         protected override string keywordIconId => "Lunar3";
@@ -19,7 +19,7 @@ namespace Ruina
         {
             behavior.ApplyDiceStatBonus(new DiceStatBonus()
             {
-                power = 3
+                power = 5
             });
         }
 

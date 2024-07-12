@@ -22,7 +22,7 @@ namespace Ruina
             bool rngResult = rng.Next(0, 100) <= stack;
             behavior.ApplyDiceStatBonus(new DiceStatBonus()
             {
-                power = rngResult ? behavior.DiceResultValue * 3 : 0
+                power = rngResult ? behavior.DiceResultValue * 2 : 0 //power is added to not set, hence 3x => x + 2x
             });
         }
 

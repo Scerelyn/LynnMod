@@ -10,7 +10,7 @@ namespace Ruina
     public class BattleUnitBuff_Citri_LunarPhase_HalfMoon : BattleUnitBuf
     {
         public static string Name = "Half Moon";
-        public static string Desc = "Increase all Dice power by 2 and Damage by 20%";
+        public static string Desc = "Increase all Dice power by 3 and Damage by 20%";
 
         protected override string keywordId => "Citri_Lunar2";
         protected override string keywordIconId => "Lunar2";
@@ -19,7 +19,7 @@ namespace Ruina
         {
             behavior.ApplyDiceStatBonus(new DiceStatBonus()
             {
-                power = 2,
+                power = 3,
                 dmgRate = 110
             });
         }

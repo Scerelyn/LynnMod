@@ -11,7 +11,7 @@ namespace Ruina
     public class BattleUnitBuff_Citri_LunarPhase_WaxingCrescent : BattleUnitBuf
     {
         public static string Name = "Waxing Crescent";
-        public static string Desc = "Increase Attack Dice power by 1 and Damage by 10%";
+        public static string Desc = "Increase Attack Dice power by 2 and Damage by 10%";
 
         protected override string keywordId => "Citri_Lunar1";
         protected override string keywordIconId => "Lunar1";
@@ -22,7 +22,7 @@ namespace Ruina
             {
                 behavior.ApplyDiceStatBonus(new DiceStatBonus()
                 {
-                    power = 1,
+                    power = 2,
                     dmgRate = 110
                 });
             }
