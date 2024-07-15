@@ -66,4 +66,12 @@
     <Card>45</Card>
     <Card>46</Card>
   </DropTable>
+  <DropTable ID="9">
+    <Card>47</Card>
+    <Card>48</Card>
+    <Card>49</Card>
+    <Card>50</Card>
+    <Card>51</Card>
+    <Card>52</Card>
+  </DropTable>
 </CardDropTableXmlRoot>

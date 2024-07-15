@@ -65,4 +65,12 @@
     <BookValue>0</BookValue>
     <DropItem Type="Equip">10000008</DropItem>
   </BookUse>
+  <BookUse ID="9">
+    <Name>Book of Citri</Name>
+    <TextId />
+    <BookIcon />
+    <Chapter>7</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000009</DropItem>
+  </BookUse>
 </BookUseXmlRoot>

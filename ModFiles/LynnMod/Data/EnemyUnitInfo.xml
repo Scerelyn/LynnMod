@@ -145,4 +145,22 @@
     </DropTable>
     <AiScript />
   </Enemy>
+  <Enemy ID="9">
+    <Name>Citri</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>159</MinHeight>
+    <MaxHeight>159</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>9</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">9</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
 </EnemyUnitClassRoot>

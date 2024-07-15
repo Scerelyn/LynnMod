@@ -7,7 +7,10 @@
     <BookDesc BookID="10000001">
       <BookName>Lynn's Page</BookName>
       <TextList>
-        <Desc></Desc>
+        <Desc>
+“Boredom is the enemy of witches.” Something that lady over in Sanctuary said. Came off to me as an excuse for the weird shit she did, or the boring chats she had with her odd friends. After traveling around for so long, getting in fights, completing jobs, killing targets, and meandering about; it started to make sense. Haven't had direction in a while, but my work takes years sometimes, so its not all bad. Just another long game is what I needed to stave off that “boredom” enemy.
+ Another job appeared to me, the man in the office gave me some odd paper this time and not the usual tablets, said this might be a quick one. I wasn't interested in short jobs, but he insisted. Now off I go to some library.
+        </Desc>
       </TextList>
     </BookDesc>
     <BookDesc BookID="2">
@@ -16,7 +19,13 @@
     <BookDesc BookID="10000002">
       <BookName>Fel's Page</BookName>
       <TextList>
-        <Desc></Desc>
+        <Desc>
+…Another boring task. 
+The fox keeps dragging me along her boring little tasks, and I have to sit back and let her talk endlessly to our marks. We were here to kill them, not this stupid shit. At least the fox prepares well, never had a fight go badly, or at least not without any major screw ups. 
+
+The man in the office promised something more exciting but the fox insisted on something boring again. When i heard it was in a library i didnt care anymore. What the hells a bunch of book going to do? I dont care for texts. The fox, just as bored as i, accepted it. A jobs needs to be done, fine.
+To a boring, quiet place this time…
+        </Desc>
       </TextList>
     </BookDesc>
     <BookDesc BookID="3">
@@ -25,7 +34,16 @@
     <BookDesc BookID="10000003">
       <BookName>Akao's Page</BookName>
       <TextList>
-        <Desc></Desc>
+        <Desc>
+…Red again…
+...I keep searching...nothing else but red…there must be more…
+......Why is it only red…theres more there... I know it.......it has to be there…
+...Red…where is it....I must keep searching...
+.....Another one.....full of red.....
+...There are six others.......they exist....
+.....Why is there only red....
+...There is more to search...
+        </Desc>
       </TextList>
     </BookDesc>
     <BookDesc BookID="4">
@@ -70,7 +88,32 @@
     <BookDesc BookID="10000008">
       <BookName>Rube's Page</BookName>
       <TextList>
-        <Desc></Desc>
+        <Desc>
+This fog is endless.
+The mists too deep. 
+The clouds too many. 
+They obscure the light.
+They block the clarity.
+I cannot see. 
+They keep making more.
+They need to cease.
+I will clear the fog.
+I will split the clouds.
+I will reveal the skies.
+The air will be clear.
+May I breathe again.
+        </Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="9">
+      <BookName>Citri's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="10000009">
+      <BookName>Citri's Page</BookName>
+      <TextList>
+        <Desc>
+Our majesty rules the skies of dark. Her beauty outshines all, I can look into her for all time. For her wills I shall follow. Her majesty inspires and her glowing form guides. I will spread her across this land and by her ever changing form I shall bring her forth. By this sword I will cleave the path clear and open the earth for her Lunar throne and once again we can be together.
+        </Desc>
       </TextList>
     </BookDesc>
   </bookDescList>

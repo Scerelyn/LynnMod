@@ -336,8 +336,8 @@
       <Passive Pid="@origin">250001</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
-    <CharacterSkin>Eileen</CharacterSkin>
-    <CharacterSkinType>Lor</CharacterSkinType>
+    <CharacterSkin>Citri</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
     <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
