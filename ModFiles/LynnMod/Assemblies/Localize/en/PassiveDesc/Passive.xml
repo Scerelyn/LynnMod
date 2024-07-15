@@ -60,4 +60,8 @@
     <Name>Garnet Airs</Name>
     <Desc>At the start of each Scene, dispel 1 random status for every emotion level and gain HP equal to the stack</Desc>
   </PassiveDesc>
+  <PassiveDesc ID="16">
+    <Name>Pale Moon</Name>
+    <Desc>(Untransferable) Cannot be staggered. When stagger resist hits 0, reset it to max and advance Lunar Phase by 1</Desc>
+  </PassiveDesc>
 </PassiveDescRoot>

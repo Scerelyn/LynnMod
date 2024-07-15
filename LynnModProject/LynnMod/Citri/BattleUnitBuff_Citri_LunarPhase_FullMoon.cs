@@ -35,7 +35,7 @@ namespace Ruina
         public override void Init(BattleUnitModel owner)
         {
             base.Init(owner);
-            typeof(BattleUnitBuf).GetField("_bufIcon", AccessTools.all).SetValue(this, Initializer.ArtWorks["LunarPhase4"]);
+            typeof(BattleUnitBuf).GetField("_bufIcon", AccessTools.all).SetValue(this, Initializer.ArtWorks["Lunar4"]);
             typeof(BattleUnitBuf).GetField("_iconInit", AccessTools.all).SetValue(this, true);
             stack = 5;
         }

@@ -139,5 +139,23 @@
     <BattleCardDesc ID="46">
       <LocalizedName>Contrail</LocalizedName>
     </BattleCardDesc>
+    <BattleCardDesc ID="47">
+      <LocalizedName>Dial</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="48">
+      <LocalizedName>Farside</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="49">
+      <LocalizedName>Lunar Break</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="50">
+      <LocalizedName>Moonrise</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="51">
+      <LocalizedName>False Collapse</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="52">
+      <LocalizedName>Ipomoea Alba</LocalizedName>
+    </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>

@@ -157,4 +157,22 @@
       <BattleDialog ID="0">The skies are clearing up</BattleDialog>
     </Type>
   </Character>
+  <Character ID="9">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">My blade is only drawn for my Majesty</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">Only the Pale light remains</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">I cannot fail now!</BattleDialog>
+      <BattleDialog ID="1">No!</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">Hmm?</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">Our path is clearing</BattleDialog>
+    </Type>
+  </Character>
 </BattleDialogRoot>

@@ -1276,6 +1276,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
+    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>Citri_Lunatic</Script>
     <ScriptDesc />
@@ -1302,6 +1303,7 @@
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>
+    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />

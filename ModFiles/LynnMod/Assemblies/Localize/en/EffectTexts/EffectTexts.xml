@@ -25,6 +25,34 @@
       <Name>Crimson Dust</Name>
       <Desc>When triggered by a Burst effect, dispel all statuses and inflict damage equal to {0} times the amount of statuses removed. This status is ignored by passives 'Red Sky' and 'Clarity'.</Desc>
     </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunar0">
+      <Name>New Moon</Name>
+      <Desc>Increase Attack Dice power by 1</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunar1">
+      <Name>Crescent Moon</Name>
+      <Desc>Increase Attack Dice power by 2 and Damage by 10%</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunar2">
+      <Name>Half Moon</Name>
+      <Desc>Increase all Dice power by 3 and Damage by 20%</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunar3">
+      <Name>Gibbous Moon</Name>
+      <Desc>Increase all Dice power by 5 and gain Ecliptic</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunar4">
+      <Name>Full Moon</Name>
+      <Desc>Gain Lunacy and Ecliptic</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Lunacy">
+      <Name>Lunacy</Name>
+      <Desc>Gain a percent change to triple dice rolls based on missing stagger resist ({0}% chance)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="Citri_Ecliptic">
+      <Name>Ecliptic</Name>
+      <Desc>Deal damage based on missing stagger resist ({0}% boost)</Desc>
+    </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">
       <Name>Lynn's Exclusive Page</Name>
       <Desc>Can only be set in the deck of Lynn's Key page.</Desc>
@@ -52,6 +80,10 @@
     <BattleEffectText ID="onlypage_Rube_Keyword">
       <Name>Rube's Exclusive Page</Name>
       <Desc>Can only be set in the deck of Rube's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_Citri_Keyword">
+      <Name>Citri's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Citri's Key page.</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

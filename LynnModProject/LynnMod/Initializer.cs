@@ -97,6 +97,9 @@ namespace Ruina
                     case 10000008:
                         __result = ArtWorks["Rube"];
                         return false;
+                    case 10000009:
+                        __result = ArtWorks["Citri"];
+                        return false;
                 }
             }
             return true;

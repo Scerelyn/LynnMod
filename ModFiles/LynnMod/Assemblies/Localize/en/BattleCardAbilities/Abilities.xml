@@ -24,4 +24,19 @@
   <BattleCardAbility ID="Saeka_Empowered">
     <Desc>Dice on this page lose 12 power. Each unique buff on user gives 1 additional dice power</Desc>
   </BattleCardAbility>
+  <BattleCardAbility ID="Citri_BreakDraw1">
+    <Desc>[On Use] Lose 5 Stagger Resist and draw 1 card</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Citri_BreakDraw2">
+    <Desc>[On Use] Lose 8 Stagger Resist and draw 1 card and gain 1 Light</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Citri_LoseBreak1">
+    <Desc>[On Use] Lose 10 Stagger Resist. Dice on this page gain +2 power.</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Citri_LoseBreak2">
+    <Desc>[On Use] Lose 20 Stagger Resist. Dice on this page gain +4 power.</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="Citri_Lunatic">
+    <Desc>[On Combat Start] Set Stagger Resist to 1 and gain 100 Stagger Resist Protection this scene and next scene. If the user has Lunacy, gain 5 Light and draw 3 cards next scene</Desc>
+  </BattleCardAbility>
 </BattleCardAbilityDescRoot>
