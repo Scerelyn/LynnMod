@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Book of Citri</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="85" pivot_y="-361" />
+      <Head head_x="-28" head_y="357" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="5" pivot_y="-361" />
+      <Head head_x="-23" head_y="343" rotation="10" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="129" pivot_y="-361" />
+      <Head head_x="62" head_y="361" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-359" />
+      <Head head_x="-5" head_y="347" rotation="12" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-359" />
+      <Head head_x="-35" head_y="354" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="235" pivot_y="-359" />
+      <Head head_x="-74" head_y="320" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-166" pivot_y="-363" />
+      <Head head_x="-64" head_y="347" rotation="8" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-39" pivot_y="-363" />
+      <Head head_x="-58" head_y="347" rotation="0" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="242" pivot_y="-361" />
+      <Head head_x="-81" head_y="322" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-32" pivot_y="-361" />
+      <Head head_x="-55" head_y="345" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>
