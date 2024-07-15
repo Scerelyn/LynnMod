@@ -9,14 +9,14 @@ using UnityEngine;
 
 namespace Ruina.AttackEffects
 {
-    public class DiceAttackEffect_Citri_Block : DiceAttackEffect
+    public class DiceAttackEffect_Citri_Blunt : DiceAttackEffect
     {
         private float duration;
 
         public override void Initialize(BattleUnitView self, BattleUnitView target, float destroyTime)
         {
             duration = destroyTime;
-            spr.sprite = Initializer.ArtWorks["citri_block_FX"];
+            spr.sprite = Initializer.ArtWorks["citri_blunt_FX"];
             base.Initialize(self, target, destroyTime);
         }
 
