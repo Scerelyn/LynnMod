@@ -24,18 +24,53 @@ namespace Ruina
 
         public override bool OnBreakGageZero()
         {
+            this.owner.bufListDetail.GetActivatedBufList().RemoveAll(b => LunarPhaseBuffs.Values.Any(lb => lb == b.GetType()));
             this.owner.RecoverBreakLife(300);
+            switch (_phase)
+            {
+                case 0:
+                    this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_NewMoon());
+                    break;
+                case 1:
+                    this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_WaxingCrescent());
+                    break;
+                case 2:
+                    this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_HalfMoon());
+                    break;
+                case 3:
+                    this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_WaxingGibbous());
+                    break;
+                case 4:
+                    this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_FullMoon());
+                    break;
+            }
             _phase = _phase >= 4 ? 4 : _phase + 1;
             return true;
         }
 
         public override void OnRoundStart()
         {
-            this.owner.bufListDetail.GetActivatedBufList().RemoveAll(b => LunarPhaseBuffs.Values.Any(lb => lb.GetType() == b.GetType()));
+            this.owner.bufListDetail.GetActivatedBufList().RemoveAll(b => LunarPhaseBuffs.Values.Any(lb => lb == b.GetType()));
             if (!this.owner.bufListDetail.GetActivatedBufList().Select(b => b.GetType()).Intersect(LunarPhaseBuffs.Values).Any())
             {
-                BattleUnitBuf phaseBuff = Activator.CreateInstance(LunarPhaseBuffs[_phase]) as BattleUnitBuf;
-                this.owner.bufListDetail.AddBuf(phaseBuff); //add buf at phase count
+                switch (_phase)
+                {
+                    case 0:
+                        this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_NewMoon());
+                        break;
+                    case 1:
+                        this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_WaxingCrescent());
+                        break;
+                    case 2:
+                        this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_HalfMoon());
+                        break;
+                    case 3:
+                        this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_WaxingGibbous());
+                        break;
+                    case 4:
+                        this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_FullMoon());
+                        break;
+                }
             }
 
             //owner.view.ChangeWorkShopSkin(Initializer.PackageId, "Citri0"); //change skin per phase

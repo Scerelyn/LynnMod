@@ -8,11 +8,12 @@ namespace Ruina
 {
     public class DiceCardSelfAbility_Citri_Lunatic : DiceCardSelfAbilityBase
     {
-        public static string Desc = "[On Combat Start] Set Stagger Resist to 1 and gain 100 Stagger Resist Protection this scene and next scene. If the user has Lunacy, gain 5 Light and draw 3 cards next scene";
+        public static string Desc = "[On Combat Start] Set Stagger Resist to 1 and gain 100 Stagger Protection. If the user has Lunacy, this card costs 0 and gain 5 Light and draw 3 cards next scene";
 
         public override void OnStartBattle()
         {
-            this.owner.TakeBreakDamage(this.owner.breakDetail.breakLife - 1);
+            this.owner.TakeBreakDamage(this.owner.breakDetail.breakGauge - 1, DamageType.Card_Ability);
+            this.owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.BreakProtection, 100);
 
             BattleUnitBuf lunacy = this.owner.bufListDetail.GetActivatedBufList().Find(b => b is BattleUnitBuff_Citri_Lunacy);
             if (lunacy != null)
@@ -27,6 +28,13 @@ namespace Ruina
             {
                 ecliptic.stack = 99;
             }
+        }
+
+        public override void OnAddToHand(BattleUnitModel owner)
+        {
+            BattleUnitBuf lunacy = this.owner.bufListDetail?.GetActivatedBufList().Find(b => b is BattleUnitBuff_Citri_Lunacy);
+
+            owner.savedCardDetail?.GetHand().FirstOrDefault(c => c.GetID() == 51)?.SetCostToZero(lunacy != null);
         }
     }
 }

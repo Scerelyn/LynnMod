@@ -316,9 +316,9 @@
     <BookIcon />
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>800</HP>
+      <HP>850</HP>
       <DeadLine>0</DeadLine>
-      <Break>200</Break>
+      <Break>120</Break>
       <SpeedMin>4</SpeedMin>
       <Speed>7</Speed>
       <SpeedDiceNum>0</SpeedDiceNum>
@@ -328,11 +328,11 @@
       <SBResist>Normal</SBResist>
       <PBResist>Endure</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>4</MaxPlayPoint>
-      <StartPlayPoint>4</StartPlayPoint>
-      <AddedStartDraw>0</AddedStartDraw>
-      <Passive>16</Passive>
+      <MaxPlayPoint>6</MaxPlayPoint>
+      <StartPlayPoint>6</StartPlayPoint>
+      <AddedStartDraw>3</AddedStartDraw>
       <Passive Pid="@origin">10008</Passive>
+      <Passive>16</Passive>
       <Passive Pid="@origin">250001</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
@@ -341,10 +341,10 @@
     <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
-    <RangeType>Hybrid</RangeType>
+    <RangeType>Melee</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
-    <SpeedDiceNum>1</SpeedDiceNum>
+    <SpeedDiceNum>2</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
 </BookXmlRoot>

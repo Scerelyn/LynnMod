@@ -8,13 +8,13 @@ namespace Ruina.Citri
 {
     public class DiceCardSelfAbility_Citri_BreakDraw2 : DiceCardSelfAbilityBase
     {
-        public static string Desc = "[On Use] Lose 8 Stagger Resist and draw 1 card and gain 1 Light";
+        public static string Desc = "[On Use] Lose 8 Stagger Resist and draw 1 card and gain 2 Light";
 
         public override void OnUseCard()
         {
-            this.owner.TakeBreakDamage(8);
+            this.owner.TakeBreakDamage(8, DamageType.Card_Ability);
             owner.allyCardDetail.DrawCards(1);
-            owner.cardSlotDetail.RecoverPlayPointByCard(1);
+            owner.cardSlotDetail.RecoverPlayPointByCard(2);
         }
     }
 }

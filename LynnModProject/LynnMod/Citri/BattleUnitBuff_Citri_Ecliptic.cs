@@ -10,13 +10,14 @@ namespace Ruina
     public class BattleUnitBuff_Citri_Ecliptic : BattleUnitBuf
     {
         public static string Name = "Ecliptic";
-        public static string Desc = "Deal damage based on missing stagger resist ({0}% boost)";
+        public static string Desc = "Deal extra damage based on missing stagger resist ({0}% boost)";
 
         protected override string keywordId => "Citri_Ecliptic";
         protected override string keywordIconId => "Ecliptic";
 
         public override void OnRollDice(BattleDiceBehavior behavior)
         {
+            stack = 100 - (100 * this._owner.breakDetail.breakGauge / this._owner.breakDetail.GetDefaultBreakGauge());
             behavior.ApplyDiceStatBonus(new DiceStatBonus()
             {
                 dmgRate = stack
@@ -25,12 +26,12 @@ namespace Ruina
 
         public override void OnLoseHp(int dmg)
         {
-            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakGauge / this._owner.breakDetail.GetDefaultBreakGauge());
         }
 
         public override void OnRoundStart()
         {
-            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakGauge / this._owner.breakDetail.GetDefaultBreakGauge());
         }
 
         public override void Init(BattleUnitModel owner)
@@ -38,7 +39,7 @@ namespace Ruina
             base.Init(owner);
             typeof(BattleUnitBuf).GetField("_bufIcon", AccessTools.all).SetValue(this, Initializer.ArtWorks["Ecliptic"]);
             typeof(BattleUnitBuf).GetField("_iconInit", AccessTools.all).SetValue(this, true);
-            stack = 100 - (100 * this._owner.breakDetail.breakLife) / this._owner.breakDetail.breakGauge;
+            stack = 100 - (100 * this._owner.breakDetail.breakGauge / this._owner.breakDetail.GetDefaultBreakGauge());
         }
     }
 }

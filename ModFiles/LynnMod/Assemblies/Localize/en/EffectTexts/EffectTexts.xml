@@ -47,11 +47,11 @@
     </BattleEffectText>
     <BattleEffectText ID="Citri_Lunacy">
       <Name>Lunacy</Name>
-      <Desc>Gain a percent change to triple dice rolls based on missing stagger resist ({0}% chance)</Desc>
+      <Desc>Gain a chance to triple dice rolls based on missing stagger resist ({0}% chance)</Desc>
     </BattleEffectText>
     <BattleEffectText ID="Citri_Ecliptic">
       <Name>Ecliptic</Name>
-      <Desc>Deal damage based on missing stagger resist ({0}% boost)</Desc>
+      <Desc>Deal extra damage based on missing stagger resist ({0}% boost)</Desc>
     </BattleEffectText>
     <BattleEffectText ID="onlypage_Lynn_Keyword">
       <Name>Lynn's Exclusive Page</Name>

@@ -37,6 +37,6 @@
     <Desc>[On Use] Lose 20 Stagger Resist. Dice on this page gain +4 power.</Desc>
   </BattleCardAbility>
   <BattleCardAbility ID="Citri_Lunatic">
-    <Desc>[On Combat Start] Set Stagger Resist to 1 and gain 100 Stagger Resist Protection this scene and next scene. If the user has Lunacy, gain 5 Light and draw 3 cards next scene</Desc>
+    <Desc>[On Combat Start] Set Stagger Resist to 1 and gain 100 Stagger Protection. If the user has Lunacy, this card costs 0 and gain 5 Light and draw 3 cards next scene</Desc>
   </BattleCardAbility>
 </BattleCardAbilityDescRoot>

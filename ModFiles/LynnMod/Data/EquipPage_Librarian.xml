@@ -328,7 +328,7 @@
       <HpReduction>0</HpReduction>
       <HP>101</HP>
       <DeadLine>0</DeadLine>
-      <Break>30</Break>
+      <Break>40</Break>
       <SpeedMin>3</SpeedMin>
       <Speed>7</Speed>
       <SpeedDiceNum>0</SpeedDiceNum>
@@ -343,8 +343,8 @@
       <AddedStartDraw>0</AddedStartDraw>
       <OnlyCard>51</OnlyCard>
       <OnlyCard>52</OnlyCard>
-      <Passive>16</Passive>
       <Passive Pid="@origin">10008</Passive>
+      <Passive>16</Passive>
       <Passive Pid="@origin">250001</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
@@ -353,7 +353,7 @@
     <SkinGender>N</SkinGender>
     <Chapter>7</Chapter>
     <Episode>-1</Episode>
-    <RangeType>Hybrid</RangeType>
+    <RangeType>Melee</RangeType>
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
     <SpeedDiceNum>1</SpeedDiceNum>
