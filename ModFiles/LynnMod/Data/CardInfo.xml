@@ -1045,6 +1045,7 @@
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>nullifyPower</Script>
     <ScriptDesc />
@@ -1073,6 +1074,7 @@
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>Rube_ClearSingleDraw1</Script>
     <ScriptDesc />
@@ -1100,6 +1102,7 @@
     <Artwork>Clear Skies.png</Artwork>
     <Rarity>Unique</Rarity>
     <Keyword>onlypage_Rube_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script>strength1</Script>
     <ScriptDesc />
@@ -1127,6 +1130,7 @@
     <Rarity>Rare</Rarity>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>Rube_ClearOut</Script>
     <ScriptDesc />
@@ -1277,6 +1281,7 @@
     <Artwork />
     <Rarity>Unique</Rarity>
     <Keyword>onlypage_Citri_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>Citri_Lunatic</Script>
     <ScriptDesc />
@@ -1304,6 +1309,7 @@
     <Artwork />
     <Rarity>Unique</Rarity>
     <Keyword>onlypage_Citri_Keyword</Keyword>
+    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
