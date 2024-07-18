@@ -12,7 +12,8 @@ namespace Ruina.Citri
 
         public override void OnUseCard()
         {
-            this.owner.TakeBreakDamage(5, DamageType.Card_Ability);
+            int staggerProtection = this.owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b.bufType == KeywordBuf.BreakProtection)?.stack ?? 0;
+            this.owner.TakeBreakDamage(Math.Max(5 - staggerProtection, 0), DamageType.Card_Ability);
             owner.allyCardDetail.DrawCards(1);
             owner.cardSlotDetail.RecoverPlayPointByCard(1);
         }

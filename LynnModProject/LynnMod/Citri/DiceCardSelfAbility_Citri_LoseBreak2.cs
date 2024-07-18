@@ -12,7 +12,8 @@ namespace Ruina
 
         public override void OnUseCard()
         {
-            this.owner.TakeBreakDamage(20, DamageType.Card_Ability);
+            int staggerProtection = this.owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b.bufType == KeywordBuf.BreakProtection)?.stack ?? 0;
+            this.owner.TakeBreakDamage(Math.Max(20 - staggerProtection, 0), DamageType.Card_Ability);
         }
 
         public override void OnRollDice(BattleDiceBehavior behavior)

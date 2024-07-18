@@ -30,11 +30,13 @@ namespace Ruina
             }
         }
 
-        public override void OnAddToHand(BattleUnitModel owner)
+        public override void OnRoundEnd_inHand(BattleUnitModel unit, BattleDiceCardModel self)
         {
             BattleUnitBuf lunacy = this.owner.bufListDetail?.GetActivatedBufList().Find(b => b is BattleUnitBuff_Citri_Lunacy);
-
-            owner.savedCardDetail?.GetHand().FirstOrDefault(c => c.GetID() == 51)?.SetCostToZero(lunacy != null);
+            if (lunacy != null)
+            {
+                self.SetCostToZero();
+            }
         }
     }
 }
