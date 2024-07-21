@@ -69,11 +69,12 @@ namespace Ruina
                         break;
                     case 4:
                         this.owner.bufListDetail.AddBuf(new BattleUnitBuff_Citri_LunarPhase_FullMoon());
+                        owner.view.ChangeWorkShopSkin(Initializer.PackageId, "Citri_Lunacy");
                         break;
                 }
             }
 
-            //owner.view.ChangeWorkShopSkin(Initializer.PackageId, "Citri0"); //change skin per phase
+            
         }
     }
 }

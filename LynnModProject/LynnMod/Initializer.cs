@@ -287,5 +287,47 @@ namespace Ruina
             }
             return true;
         }
+
+    }
+
+    public static class LynnModUtils
+    {
+        public static void ChangeWorkShopSkin(this BattleUnitView battleUnitView, string uniqueId, string skinName)
+        {
+            BattleUnitView.SkinInfo obj = (BattleUnitView.SkinInfo)battleUnitView.GetType().GetField("_skinInfo", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(battleUnitView);
+            obj.state = BattleUnitView.SkinState.Changed;
+            obj.skinName = skinName;
+            ActionDetail currentMotionDetail = battleUnitView.charAppearance.GetCurrentMotionDetail();
+            battleUnitView.DestroySkin();
+            Workshop.WorkshopSkinData workshopBookSkinData = Singleton<CustomizingBookSkinLoader>.Instance.GetWorkshopBookSkinData(uniqueId, skinName);
+            GameObject gameObject = (GameObject)Resources.Load("Prefabs/Characters/[Prefab]Appearance_Custom");
+            if (gameObject != null)
+            {
+                UnitCustomizingData customizeData = battleUnitView.model.UnitData.unitData.customizeData;
+                GiftInventory giftInventory = battleUnitView.model.UnitData.unitData.giftInventory;
+                GameObject gameObject2 = UnityEngine.Object.Instantiate(gameObject, battleUnitView.characterRotationCenter);
+                battleUnitView.charAppearance = gameObject2.GetComponent<CharacterAppearance>();
+                Workshop.WorkshopSkinDataSetter component = battleUnitView.charAppearance.GetComponent<Workshop.WorkshopSkinDataSetter>();
+                if (component != null && workshopBookSkinData != null)
+                {
+                    component.SetData(workshopBookSkinData);
+                }
+                
+                battleUnitView.charAppearance.Initialize(skinName);
+                battleUnitView.charAppearance.InitCustomData(customizeData, battleUnitView.model.UnitData.unitData.defaultBook.GetBookClassInfoId());
+                battleUnitView.charAppearance.InitGiftDataAll(giftInventory.GetEquippedList());
+                battleUnitView.charAppearance.ChangeMotion(currentMotionDetail);
+                battleUnitView.charAppearance.ChangeLayer("Character");
+                battleUnitView.charAppearance.SetLibrarianOnlySprites(battleUnitView.model.faction);
+                if (customizeData != null)
+                {
+                    battleUnitView.ChangeHeight(customizeData.height);
+                }
+            }
+            else
+            {
+                battleUnitView.CreateSkin();
+            }
+        }
     }
 }
