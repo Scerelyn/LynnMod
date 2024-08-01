@@ -1178,7 +1178,7 @@
   <Card ID="47">
     <Name>Dial</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Dial.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
     <Script>Citri_BreakDraw1</Script>
@@ -1202,7 +1202,7 @@
   <Card ID="48">
     <Name>Farside</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Farside.png</Artwork>
     <Rarity>Uncommon</Rarity>
     <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
     <Script>Citri_BreakDraw2</Script>
@@ -1227,7 +1227,7 @@
   <Card ID="49">
     <Name>Lunar Break</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Lunar Break.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>Citri_LoseBreak1</Script>
@@ -1252,7 +1252,7 @@
   <Card ID="50">
     <Name>Moonrise</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Moonrise.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>Citri_LoseBreak2</Script>
@@ -1278,7 +1278,7 @@
   <Card ID="51">
     <Name>False Collapse</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>False Collapse.png</Artwork>
     <Rarity>Unique</Rarity>
     <Keyword>onlypage_Citri_Keyword</Keyword>
     <Option>OnlyPage</Option>
@@ -1306,7 +1306,7 @@
   <Card ID="52">
     <Name>Ipomoea Alba</Name>
     <TextId>-1</TextId>
-    <Artwork />
+    <Artwork>Ipomoea Alba.png</Artwork>
     <Rarity>Unique</Rarity>
     <Keyword>onlypage_Citri_Keyword</Keyword>
     <Option>OnlyPage</Option>
