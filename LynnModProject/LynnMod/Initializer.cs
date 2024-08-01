@@ -48,6 +48,10 @@ namespace Ruina
             method = typeof(Initializer).GetMethod("DiceEffectManager_CreateBehaviourEffect");
             harmony.Patch(typeof(DiceEffectManager).GetMethod("CreateBehaviourEffect", AccessTools.all), new HarmonyMethod(method));
 
+
+            method = typeof(PassiveAbility_Lynn_EField).GetMethod("PassiveAbility_Lynn_EField_OnUseCard");
+            harmony.Patch(typeof(BattleUnitBuf_paralysis).GetMethod("OnUseCard", AccessTools.all), new HarmonyMethod(method));
+
             GetArtWorks(new DirectoryInfo(path + "/ArtWork"));
             GetCustomEffects(new DirectoryInfo(path + "/CustomEffects"));
 

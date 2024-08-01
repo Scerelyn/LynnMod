@@ -108,6 +108,8 @@
     <Compile Include="Citri\DiceCardSelfAbility_Citri_BreakDraw1.cs" />
     <Compile Include="Citri\DiceCardSelfAbility_Citri_LoseBreak2.cs" />
     <Compile Include="Citri\DiceCardSelfAbility_Citri_LoseBreak1.cs" />
+    <Compile Include="Fel\DiceCardAbility_Fel_FeebleCycles.cs" />
+    <Compile Include="Fel\PassiveAbility_Fel_OpenShot.cs" />
     <Compile Include="Rube\BattleUnitBuf_Rube_Dust.cs" />
     <Compile Include="Enbana\BattleUnitBuf_Enbana_BlueFlame.cs" />
     <Compile Include="Enbana\BattleUnitBuf_Enbana_YellowFlame.cs" />

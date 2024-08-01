@@ -11,16 +11,17 @@ namespace Ruina
         public static string Name = "E Field Manipulation";
         public static string Desc = "When inflicted with Paralysis, gain 3 to max roll instead";
 
-        public override void OnRollDice(BattleDiceBehavior behavior)
+        public override bool IsImmune(KeywordBuf buf)
         {
-            BattleUnitBuf para = owner.bufListDetail.GetActivatedBufList().FirstOrDefault(b => b.bufType == KeywordBuf.Paralysis);
-            if (para != null)
+            return buf == KeywordBuf.Paralysis;
+        }
+
+        public static void PassiveAbility_Lynn_EField_OnUseCard(BattleUnitBuf_paralysis __instance, ref BattlePlayingCardDataInUnitModel card)
+        {
+            if (card.owner.passiveDetail.PassiveList.Any(p => p is PassiveAbility_Lynn_EField))
             {
-                
-                behavior.ApplyDiceStatBonus(new DiceStatBonus()
-                {
-                    max = behavior.GetDiceMax() == behavior.GetDiceVanillaMax() - 3 ? 6 : 3
-                });
+                card.AddDiceFace(DiceMatch.Random(__instance.stack), 1);
+                SingletonBehavior<DiceEffectManager>.Instance.CreateBufEffect("BufEffect_Paralyze", card.owner.view);
             }
         }
     }

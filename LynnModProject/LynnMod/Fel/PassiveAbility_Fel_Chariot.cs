@@ -11,7 +11,7 @@ namespace Ruina
         private static int _strengthLimit = 5;
         private static int _weakLimit = 5;
         public static string Name = "Chariot";
-        public static string Desc = "On clash win, gain 1 Strength (max 5). On clash lose, gain 1 Feeble (max 5)";
+        public static string Desc = "On Clash Win, gain 1 Strength (max 5). On Clash Lose, gain 1 Feeble (max 5) this scene and next scene";
 
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {
@@ -19,6 +19,7 @@ namespace Ruina
             if (isStrengthBelowLimit)
             {
                 owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Strength, 1);
+                owner.bufListDetail.AddKeywordBufByEtc(KeywordBuf.Strength, 1);
             }
         }
 
@@ -28,6 +29,7 @@ namespace Ruina
             if (isWeakBelowLimit)
             {
                 owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Weak, 1);
+                owner.bufListDetail.AddKeywordBufByEtc(KeywordBuf.Weak, 1);
             }
         }
     }

@@ -210,7 +210,7 @@
     <Script>quickness1</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="Thumb_Z" Script="weak1atk" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Penetrate" Motion="F" MotionDefault="N" EffectRes="Thumb_Z" Script="Fel_FeebleCycles" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -259,6 +259,7 @@
     <BehaviourList>
       <Behaviour Min="3" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Orange_H" Script="" ActionScript="" Desc="" />
       <Behaviour Min="2" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Thumb_Z" Script="quickness1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -717,7 +718,7 @@
     <Script>energy2</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="strength1atk" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Saeka_Slash" Script="energy1atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -741,7 +742,7 @@
     <Script>drawCard</Script>
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="Z" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Hit" Motion="Z" MotionDefault="N" EffectRes="Saeka_Blunt" Script="quickness1atk" ActionScript="" Desc="" />
       <Behaviour Min="3" Dice="7" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
@@ -766,8 +767,8 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="6" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="Saeka_Block" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Saeka_Slash" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="endurance1pw" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Saeka_Slash" Script="protect1pw" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -844,8 +845,8 @@
     <BehaviourList>
       <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="F" MotionDefault="N" EffectRes="Saeka_Block" Script="Saeka_BuffGain" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="Saeka_BuffGain" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="Saeka_BuffGain" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Slash" Motion="H" MotionDefault="N" EffectRes="Saeka_Blunt" Script="quickness1atk" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Saeka_Pierce" Script="strength2atk" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -1043,9 +1044,9 @@
     <TextId>-1</TextId>
     <Artwork>Jetstream.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Option>OnlyPage</Option>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
-    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>nullifyPower</Script>
     <ScriptDesc />
@@ -1072,9 +1073,9 @@
     <TextId>-1</TextId>
     <Artwork>Through the Mist.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Option>OnlyPage</Option>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
-    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>Rube_ClearSingleDraw1</Script>
     <ScriptDesc />
@@ -1101,8 +1102,8 @@
     <TextId>-1</TextId>
     <Artwork>Clear Skies.png</Artwork>
     <Rarity>Unique</Rarity>
-    <Keyword>onlypage_Rube_Keyword</Keyword>
     <Option>OnlyPage</Option>
+    <Keyword>onlypage_Rube_Keyword</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script>strength1</Script>
     <ScriptDesc />
@@ -1128,9 +1129,9 @@
     <TextId>-1</TextId>
     <Artwork>Reddened Gust.png</Artwork>
     <Rarity>Rare</Rarity>
+    <Option>OnlyPage</Option>
     <Keyword>Rube_Dust</Keyword>
     <Keyword>onlypage_Rube_Keyword</Keyword>
-    <Option>OnlyPage</Option>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
     <Script>Rube_ClearOut</Script>
     <ScriptDesc />
@@ -1261,7 +1262,7 @@
       <Behaviour Min="3" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Citri_Blunt" Script="" ActionScript="" Desc="" />
       <Behaviour Min="4" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="Citri_Pierce" Script="" ActionScript="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="Citri_Blunt" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -1280,8 +1281,8 @@
     <TextId>-1</TextId>
     <Artwork>False Collapse.png</Artwork>
     <Rarity>Unique</Rarity>
-    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Option>OnlyPage</Option>
+    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>Citri_Lunatic</Script>
     <ScriptDesc />
@@ -1308,8 +1309,8 @@
     <TextId>-1</TextId>
     <Artwork>Ipomoea Alba.png</Artwork>
     <Rarity>Unique</Rarity>
-    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Option>OnlyPage</Option>
+    <Keyword>onlypage_Citri_Keyword</Keyword>
     <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
     <Script />
     <ScriptDesc />
