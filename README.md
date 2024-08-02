@@ -17,6 +17,8 @@ A one on five fight with a character who gains and keeps buffs, getting stronger
 A one on five fight with a character immune to attacks and builds damage from being staggered
 ### Rube
 A one on five fight with a character who gains power from having no statuses and abilities to clear them out on self and enemies
+### Citri
+A one on five fight with a character who uses stagger resist to gain power, intentionally reducing to increase a buff to deal more damage and boost dice rolls
 
 ## Directory Layout
 ### Art 
