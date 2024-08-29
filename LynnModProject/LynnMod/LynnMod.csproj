@@ -63,6 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alba\BattleUnitBuf_Alba_Drowning.cs" />
+    <Compile Include="Alba\BattleUnitBuf_Alba_Flooded.cs" />
+    <Compile Include="Alba\DiceCardAbility_Alba_Flood1.cs" />
+    <Compile Include="Alba\DiceCardAbility_Alba_Drown2.cs" />
+    <Compile Include="Alba\DiceCardAbility_Alba_Drown1.cs" />
+    <Compile Include="Alba\DiceCardSelfAbility_Alba_Break2.cs" />
+    <Compile Include="Alba\DiceCardSelfAbility_Alba_Break1.cs" />
+    <Compile Include="Alba\PassiveAbility_Alba_UnstoppableWaves.cs" />
+    <Compile Include="Alba\PassiveAbility_Alba_WhiteOcean.cs" />
     <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Pierce.cs" />
     <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Slash.cs" />
     <Compile Include="AttackEffects\DiceAttackEffect_Akao_Orange_Block.cs" />

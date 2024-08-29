@@ -221,4 +221,30 @@
     <Name>Open Shot</Name>
     <Desc>One sided attacks deal 50% extra damage</Desc>
   </Passive>
+  <Passive ID="18">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>Alba_WhiteOcean</Script>
+    <Name>White Ocean</Name>
+    <Desc>(Untransferable) Gain 2 speed dice. Every emotion level, gain 1 additional speed dice. Gain +2 Dice power and one 2-5 slash counter dice for each broken speed dice.</Desc>
+  </Passive>
+  <Passive ID="19">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Alba_UnstoppableWaves</Script>
+    <Name>Riptides</Name>
+    <Desc>On Clash Win, if the target has 10+ Drowning, inflict 1 Seal</Desc>
+  </Passive>
 </PassiveXmlRoot>

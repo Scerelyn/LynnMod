@@ -333,5 +333,22 @@ namespace Ruina
                 battleUnitView.CreateSkin();
             }
         }
+
+        public static void AppendDiceToQueue(this BattleUnitModel owner, int pageId)
+        {
+            DiceCardXmlInfo cardItem = ItemXmlDataList.instance.GetCardItem(new LorId(Initializer.PackageId, pageId)); //get our proxy card with dice
+            List<BattleDiceBehavior> list = new List<BattleDiceBehavior>();
+            int num = 0;
+            //copy dice to a list
+            foreach (DiceBehaviour diceBehaviour in cardItem.DiceBehaviourList)
+            {
+                BattleDiceBehavior battleDiceBehavior = new BattleDiceBehavior();
+                battleDiceBehavior.behaviourInCard = diceBehaviour.Copy();
+                battleDiceBehavior.SetIndex(num++);
+                list.Add(battleDiceBehavior);
+            }
+            owner.cardSlotDetail.keepCard.AddBehaviours(cardItem, list); //adds the dice to the keep card
+            
+        }
     }
 }
