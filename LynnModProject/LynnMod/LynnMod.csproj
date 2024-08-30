@@ -70,6 +70,7 @@
     <Compile Include="Alba\DiceCardAbility_Alba_Drown1.cs" />
     <Compile Include="Alba\DiceCardSelfAbility_Alba_Break2.cs" />
     <Compile Include="Alba\DiceCardSelfAbility_Alba_Break1.cs" />
+    <Compile Include="Alba\FarAreaEffect_Alba_Deluge.cs" />
     <Compile Include="Alba\PassiveAbility_Alba_UnstoppableWaves.cs" />
     <Compile Include="Alba\PassiveAbility_Alba_WhiteOcean.cs" />
     <Compile Include="AttackEffects\DiceAttackEffect_Akao_Green_Pierce.cs" />
