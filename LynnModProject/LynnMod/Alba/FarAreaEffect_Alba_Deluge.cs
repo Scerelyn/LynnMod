@@ -1,149 +1,132 @@
 ﻿using System.Collections.Generic;
 using LOR_DiceSystem;
+using LOR_XML;
 using UnityEngine;
 
 namespace Ruina
 {
-
     public class FarAreaEffect_Alba_Deluge : FarAreaEffect
     {
-        private const int _XIAO_NORMAL_ID = -1;
+        private float elapsed;
 
-        private const int _XIAO_EGO_1_ID = 150036;
+        private BattleUnitModel owner;
 
-        private const int _XIAO_EGO_2_ID = 150038;
+        private bool started;
 
-        private float _elapsed;
+        private float CurrentAttackDelay
+        {
+            get => 0.6f;
+        }
 
-        private CameraFilterPack_FX_EarthQuake _camFilter;
-
-        private SpriteRenderer _spr;
-
-        private ActionDetail _beforeMotion;
+        private float CurrentEndDelay
+        {
+            get => 1.5f;
+        }
 
         public override void Init(BattleUnitModel self, params object[] args)
         {
             base.Init(self, args);
-            self.moveDetail.Move(Vector3.zero, 200f);
             OnEffectStart();
-            _elapsed = 0f;
-            Singleton<BattleFarAreaPlayManager>.Instance.SetActionDelay(0f);
-            List<BattleUnitModel> list = new List<BattleUnitModel>();
-            list.Add(self);
-            list.AddRange(BattleObjectManager.instance.GetAliveList((self.faction == Faction.Enemy) ? Faction.Player : Faction.Enemy));
-            if (self.Book.GetBookClassInfoId() == -1)
-            {
-                SingletonBehavior<BattleCamManager>.Instance.FollowUnits(false, list);
-            }
-            _beforeMotion = ActionDetail.Default;
+            elapsed = 0f;
+            owner = self;
+            started = false;
+            isRunning = false;
+            state = EffectState.None;
+            owner.view.charAppearance.ChangeMotion(ActionDetail.Default);
+            
         }
 
-        protected override void Update()
+        public override bool ActionPhase(float deltaTime, BattleUnitModel attacker, List<BattleFarAreaPlayManager.VictimInfo> victims, ref List<BattleFarAreaPlayManager.VictimInfo> defenseVictims)
         {
-            if (state == EffectState.Start)
+            elapsed += deltaTime;
+            if (!started)
             {
-                if (_self.moveDetail.isArrived)
-                {
-                    state = EffectState.GiveDamage;
-                }
+                started = true;
+                //PrintSound();
+                
             }
-            else if (state == EffectState.GiveDamage)
+            else if (elapsed >= 0.1f && state == EffectState.None)
             {
-                _elapsed += Time.deltaTime;
-                if (_elapsed >= 0.25f)
+                state = EffectState.Start;
+                PrintEffect();
+                owner.view.charAppearance.ChangeMotion(ActionDetail.Slash);
+                
+            }
+            else if (elapsed >= CurrentAttackDelay && state == EffectState.Start)
+            {
+                state = EffectState.GiveDamage;
+                foreach (BattleFarAreaPlayManager.VictimInfo victim2 in victims)
                 {
-                    _beforeMotion = _self.view.charAppearance.GetCurrentMotionDetail();
-                    //if (_self.UnitData.unitData.EnemyUnitId == 50002 || _self.Book.GetBookClassInfoId() == 250002)
-                    //{
-                    //    _self.view.charAppearance.ChangeMotion(ActionDetail.S2);
-                    //}
-                    //else
-                    //{
-                        _self.view.charAppearance.ChangeMotion(ActionDetail.Hit);
-                    //}
-                    _elapsed = 0f;
-                    isRunning = false;
-                    state = EffectState.End;
-                    Camera camera = SingletonBehavior<BattleCamManager>.Instance?.EffectCam;
-                    _camFilter = camera.gameObject.AddComponent<CameraFilterPack_FX_EarthQuake>();
-                    if (SingletonBehavior<BattleSceneRoot>.Instance.currentMapObject is ScorchedGirlMapManager)
+                    if (victim2.playingCard != null)
                     {
-                        ScorchedGirlMapManager scorchedGirlMapManager = SingletonBehavior<BattleSceneRoot>.Instance.currentMapObject as ScorchedGirlMapManager;
-                        _spr = scorchedGirlMapManager.SetBurnFilterLinearDodge(b: true);
-                    }
-                    TimeManager.Instance.SlowMotion(0.25f, 0.125f, zoom: true);
-                    if (_self.Book.GetBookClassInfoId() == -1)
-                    {
-                        _self.view.charAppearance.soundInfo.PlaySound(MotionDetail.S2, win: true);
-                        SingletonBehavior<DiceEffectManager>.Instance.CreateBehaviourEffect("LiuSection1Shyao_AreaAtk2", 1f, _self.view, null);
+                        int sum = 0;
+                        List<BattleDiceBehavior> diceBehaviorList = victim2.playingCard.GetDiceBehaviorList();
+                        if (!victim2.cardDestroyed)
+                        {
+                            diceBehaviorList.ForEach(delegate (BattleDiceBehavior x)
+                            {
+                                sum += x.DiceResultValue;
+                            });
+                        }
+                        if (attacker.currentDiceAction.currentBehavior.DiceResultValue > sum)
+                        {
+                            GiveDamage(attacker, victim2);
+                            victim2.cardDestroyed = true;
+                        }
+                        else
+                        {
+                            ActionDetail detail = ActionDetail.Default;
+                            if (diceBehaviorList.Count > 0)
+                            {
+                                detail = MotionConverter.MotionToAction(diceBehaviorList[0].behaviourInCard.MotionDetail);
+                            }
+                            victim2.unitModel.view.charAppearance.ChangeMotion(detail);
+                            if (!defenseVictims.Contains(victim2))
+                            {
+                                defenseVictims.Add(victim2);
+                            }
+                        }
                     }
                     else
                     {
-                        _self.view.charAppearance.soundInfo.PlaySound(MotionDetail.S2, win: true);
-                        SingletonBehavior<DiceEffectManager>.Instance.CreateBehaviourEffect("XiaoEgo_S2", 1f, _self.view, null);
+                        GiveDamage(attacker, victim2);
                     }
+                    SingletonBehavior<BattleManagerUI>.Instance.ui_unitListInfoSummary.UpdateCharacterProfile(victim2.unitModel, victim2.unitModel.faction, victim2.unitModel.hp, victim2.unitModel.breakDetail.breakGauge);
                 }
+                SingletonBehavior<BattleManagerUI>.Instance.ui_unitListInfoSummary.UpdateCharacterProfile(attacker, attacker.faction, attacker.hp, attacker.breakDetail.breakGauge);
+            }
+            else if (elapsed >= CurrentEndDelay && state == EffectState.GiveDamage)
+            {
+                state = EffectState.End;
             }
             else if (state == EffectState.End)
             {
-                _elapsed += Time.deltaTime;
-                if (_camFilter != null)
-                {
-                    _camFilter.Speed = 30f * (1f - _elapsed);
-                    _camFilter.X = 0.1f * (1f - _elapsed);
-                    _camFilter.Y = 0.1f * (1f - _elapsed);
-                }
-                if (_spr != null)
-                {
-                    Color color = _spr.color;
-                    color.a = 1f - _elapsed;
-                    _spr.color = color;
-                }
-                if (_elapsed > 1f)
-                {
-                    if (_camFilter != null)
-                    {
-                        Object.Destroy(_camFilter);
-                        _camFilter = null;
-                    }
-                    if (_spr != null)
-                    {
-                        _spr.enabled = false;
-                    }
-                    if (_self.UnitData.unitData.EnemyUnitId == 50002)
-                    {
-                        _self.view.charAppearance.ChangeMotion(ActionDetail.Default);
-                    }
-                    else
-                    {
-                        _self.view.charAppearance.ChangeMotion(_beforeMotion);
-                    }
-                    state = EffectState.None;
-                    _elapsed = 0f;
-                }
+                OnEffectEnd();
+                return true;
             }
-            else if (state == EffectState.None)
-            {
-                if (_self.Book.GetBookClassInfoId() == -1)
-                {
-                    SingletonBehavior<BattleCamManager>.Instance.FollowUnits(false, BattleObjectManager.instance.GetAliveList());
-                }
-                if (_self.view.FormationReturned)
-                {
-                    Object.Destroy(base.gameObject);
-                }
-                Debug.Log($"LorId: {_self.Book.BookId.id}, {_self.Book.BookId.packageId}, isworkshop: {_self.Book.BookId.IsWorkshop()}, book name: {_self.Book.Name}");
-            }
+            return false;
         }
 
-        protected override void OnDisable()
+        public override void OnEffectEnd()
         {
-            base.OnDisable();
-            if (_camFilter != null)
+            _isDoneEffect = true;
+        }
+
+        private void PrintEffect()
+        {
+            SingletonBehavior<DiceEffectManager>.Instance.CreateBehaviourEffect("Akao_Green_Slash", 1f, _self.view, null);
+        }
+
+        private void GiveDamage(BattleUnitModel attacker, BattleFarAreaPlayManager.VictimInfo v)
+        {
+            attacker.currentDiceAction.currentBehavior.GiveDamage(v.unitModel);
+            if (v.unitModel.IsDead())
             {
-                Object.Destroy(_camFilter);
-                _camFilter = null;
+                List<BattleUnitModel> list = new List<BattleUnitModel>();
+                list.Add(attacker);
+                v.unitModel.view.DisplayDlg(DialogType.DEATH, list);
             }
+            v.unitModel.view.charAppearance.ChangeMotion(ActionDetail.Damaged);
         }
     }
 }

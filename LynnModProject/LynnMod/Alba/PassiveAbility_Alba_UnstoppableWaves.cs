@@ -9,7 +9,7 @@ namespace Ruina
     public class PassiveAbility_Alba_UnstoppableWaves : PassiveAbilityBase
     {
         public static string Name = "Riptides";
-        public static string Desc = "On Clash Win, if the target has 10+ Drowning, inflict 1 Seal";
+        public static string Desc = "On Clash Win, if the target has 7+ Drowning, inflict 1 Submerge";
 
         public override void OnWinParrying(BattleDiceBehavior behavior)
         {

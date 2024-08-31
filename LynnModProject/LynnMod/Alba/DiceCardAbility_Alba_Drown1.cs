@@ -19,7 +19,7 @@ namespace Ruina
                 if (drown == null)
                 {
                     drown = new BattleUnitBuf_Alba_Drowning();
-                    target.bufListDetail.AddBuf(drown);
+                    target.bufListDetail.AddReadyBuf(drown);
                 }
                 drown.stack++;
             }

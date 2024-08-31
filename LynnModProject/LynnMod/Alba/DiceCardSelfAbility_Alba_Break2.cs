@@ -12,7 +12,13 @@ namespace Ruina
 
         public override void OnUseCard()
         {
-            owner.bufListDetail.AddKeywordBufByCard(KeywordBuf.Seal, 2, owner);
+            BattleUnitBuf submerge = owner.bufListDetail.GetActivatedBufList().Find(b => b is BattleUnitBuf_Alba_Submerge);
+            if (submerge == null)
+            {
+                submerge = new BattleUnitBuf_Alba_Submerge();
+                owner.bufListDetail.AddReadyBuf(submerge);
+            }
+            submerge.stack += 2;
         }
     }
 }

@@ -8,8 +8,6 @@ namespace Ruina
 {
     public class PassiveAbility_Fel_OpenShot : PassiveAbilityBase
     {
-        private static int _strengthLimit = 5;
-        private static int _weakLimit = 5;
         public static string Name = "Open Shot";
         public static string Desc = "One sided attacks deal 50% extra damage";
         

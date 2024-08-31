@@ -88,11 +88,13 @@ May I breathe again.
       </TextList>
     </BookDesc>
     <BookDesc BookID="10000010">
+      <BookName />
       <TextList>
         <Desc />
       </TextList>
     </BookDesc>
     <BookDesc BookID="10000010">
+      <BookName />
       <TextList />
     </BookDesc>
   </bookDescList>

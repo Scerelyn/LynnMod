@@ -1330,7 +1330,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="100">
-    <Name>Alba Proxy 1</Name>
+    <Name>Flowing Currents</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1339,6 +1339,29 @@
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="2" Dice="5" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="101">
+    <Name>Shredding Waves</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="Alba_Drown2" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />

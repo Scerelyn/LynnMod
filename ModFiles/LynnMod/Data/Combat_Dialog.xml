@@ -176,4 +176,21 @@
       <BattleDialog ID="0">Our path is clearing</BattleDialog>
     </Type>
   </Character>
+  <Character ID="10">
+    <Type ID="START_BATTLE">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="BATTLE_VICTORY">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="COLLEAGUE_DEATH">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+    <Type ID="KILLS_OPPONENT">
+      <BattleDialog ID="0">...</BattleDialog>
+    </Type>
+  </Character>
 </BattleDialogRoot>

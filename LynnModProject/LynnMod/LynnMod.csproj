@@ -65,6 +65,9 @@
   <ItemGroup>
     <Compile Include="Alba\BattleUnitBuf_Alba_Drowning.cs" />
     <Compile Include="Alba\BattleUnitBuf_Alba_Flooded.cs" />
+    <Compile Include="Alba\BattleUnitBuf_Alba_Submerge.cs" />
+    <Compile Include="Alba\BehaviourEffect_Alba_Deluge.cs" />
+    <Compile Include="Alba\DiceCardAbility_Alba_Submerge1.cs" />
     <Compile Include="Alba\DiceCardAbility_Alba_Flood1.cs" />
     <Compile Include="Alba\DiceCardAbility_Alba_Drown2.cs" />
     <Compile Include="Alba\DiceCardAbility_Alba_Drown1.cs" />
