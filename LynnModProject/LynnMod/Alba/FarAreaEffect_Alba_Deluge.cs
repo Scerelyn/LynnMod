@@ -13,15 +13,9 @@ namespace Ruina
 
         private bool started;
 
-        private float CurrentAttackDelay
-        {
-            get => 0.6f;
-        }
+        private float CurrentAttackDelay { get => 0.6f; }
 
-        private float CurrentEndDelay
-        {
-            get => 1.5f;
-        }
+        private float CurrentEndDelay { get => 1.5f; }
 
         public override void Init(BattleUnitModel self, params object[] args)
         {

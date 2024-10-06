@@ -20,8 +20,7 @@ namespace Ruina
         {
             return stack;
         }
-
-
+        
         public override void OnRoundEnd()
         {
             Destroy();

@@ -1425,7 +1425,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="55">
-    <Name>A</Name>
+    <Name>Overflow</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1450,7 +1450,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="56">
-    <Name>B</Name>
+    <Name>Heavy Rush</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Rare</Rarity>
@@ -1475,7 +1475,7 @@
     <MaxNum>150</MaxNum>
   </Card>
   <Card ID="57">
-    <Name>C</Name>
+    <Name>Tsunami</Name>
     <TextId>-1</TextId>
     <Artwork />
     <Rarity>Unique</Rarity>

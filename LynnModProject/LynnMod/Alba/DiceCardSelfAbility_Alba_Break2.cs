@@ -8,7 +8,7 @@ namespace Ruina
 {
     public class DiceCardSelfAbility_Alba_Break2 : DiceCardSelfAbilityBase
     {
-        public static string Desc = "[On Use] Gain 2 Seal next Scene";
+        public static string Desc = "[On Use] Gain 2 Submerge next Scene";
 
         public override void OnUseCard()
         {
